@@ -1,5 +1,7 @@
 # Awesome Trading Services, Market Data APIs & Crypto Analytics
 
+![Trading awesome](https://i.postimg.cc/SstfKwXF/trading-awesome-github.jpg)
+
 > A curated directory of **50+ trading services** for algorithmic traders, quantitative researchers, developers, and active investors. It covers broker and exchange APIs, stock and forex data, cryptocurrency market data, on-chain analytics, derivatives intelligence, charting, backtesting, and no-code trading research.
 
 Reliable trading infrastructure is a prerequisite for serious research and automation. This SEO-friendly Awesome List makes it easier to compare **market-data APIs**, **brokerage APIs**, **crypto exchange APIs**, **forex platforms**, and **on-chain analytics tools** without treating fundamentally different products as interchangeable. It is intended as a practical discovery resource—not as an endorsement or a trading recommendation.
