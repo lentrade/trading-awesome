@@ -98,6 +98,7 @@ For quantitative strategies and investment research, data quality depends on mor
 | 21 | **[Trading Economics](https://tradingeconomics.com/)** [21] | Macroeconomic and market-data platform for indicators, calendars, forecasts, commodities, bonds, currencies, and APIs. | Macro; Forex / FX; Traditional markets | [API docs](https://docs.tradingeconomics.com/) · Py: [official](https://github.com/tradingeconomics/tradingeconomics-python) · Go/PHP: [official multi-language repo](https://github.com/tradingeconomics/tradingeconomics) | Public Basic plan starts at **$22/month billed annually**. |
 | 22 | **[Marketstack](https://marketstack.com/)** [22] | REST API for end-of-day, intraday, and real-time equities data, designed for lightweight integrations. | Traditional markets; equities / ETFs | [API docs](https://docs.apilayer.com/marketstack/docs/api-documentation) · Py: [community](https://github.com/mreiche/marketstack-python) · Go: [community](https://github.com/tigusigalpa/marketstack-go) · PHP: [community](https://github.com/tigusigalpa/marketstack-php) | Free tier; public paid tiers start at **$9.99/month**. |
 | 23 | **[Unusual Whales](https://unusualwhales.com/)** [23] | Options-flow, dark-pool, congressional-trading, and market-analysis platform with a public API. | U.S. options; equities; Research / automation | [API docs](https://api.unusualwhales.com/docs) · Py: — · Go: — · PHP: — | Retail plans publicly start at **$42/month billed annually**; enterprise begins at **$750/month**. |
+|  | **[DepthFeed](https://depthfeed.com/)** [99] | Historical and live prediction-market order-book data for systematic backtesting and liquidity analysis. | Research / automation | [API docs](https://depthfeed.com/docs) · [MCP](https://github.com/vcorp-dev/depthfeed-mcp) · Py/Go/PHP: — | Free Explorer tier; paid plans are listed on the [official pricing page](https://depthfeed.com/pricing). |
 
 ---
 
@@ -402,6 +403,7 @@ There is no universal "best" service. Start with the narrowest tool that satisfi
 [96] Highcharts Stock — [Official site](https://www.highcharts.com/products/stock/) · [Docs](https://api.highcharts.com/highstock/)  
 [97] Bokeh — [Official site](https://bokeh.org/) · [Docs](https://docs.bokeh.org/)  
 [98] mplfinance — [GitHub](https://github.com/matplotlib/mplfinance)  
+[99] DepthFeed — [Official site](https://depthfeed.com/) · [API docs](https://depthfeed.com/docs) · [MCP](https://github.com/vcorp-dev/depthfeed-mcp) · [Pricing](https://depthfeed.com/pricing)
 
 ---
 
