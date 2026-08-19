@@ -169,6 +169,7 @@ A signal is an input to a decision process, not a promise of profit. This sectio
 | 56 | **[FinancialJuice](https://www.financialjuice.com/)** [55] | Real-time financial news, headlines, economic-calendar events, and audio squawk for event-driven discretionary research. | Macro; Traditional markets; Forex / FX; news | No general public API identified · Py/Go/PHP: — | Free and paid access; real-time features and delay conditions depend on plan. |
 | 57 | **[GDELT](https://www.gdeltproject.org/)** [56] | Open global news and event datasets for custom geopolitical, narrative, and media-attention signals. | Global news; macro; alternative data; Research / automation | [DOC API](https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/) · [data access](https://www.gdeltproject.org/data.html) · Py/Go/PHP: direct HTTP or BigQuery clients | Open datasets and public endpoints; downstream cloud-query or storage charges may apply. |
 | 58 | **[SignalStack](https://signalstack.com/)** [57] | Webhook-based order-routing layer that converts alerts from charting and strategy tools into broker orders. | Traditional markets; Forex / FX; crypto; Brokerage / execution | [Documentation](https://help.signalstack.com/) · Webhook integration · Py/Go/PHP: direct HTTP | Usage-based or subscription terms; broker fees remain separate. |
+|  | **[Congress Trading Pipeline](https://github.com/seralifatih/congress-trading-pipeline)** [99] | Primary-source, delayed congressional-disclosure event data: US House and Senate STOCK Act periodic transaction reports (PTRs) parsed directly from official Senate EFD and House Clerk sources into deduplicated JSON. | Traditional markets; Research / automation | Apify API / direct HTTP; self-hosted TypeScript · Py/Go/PHP: — | Usage-based: House from **$2 / 1,000 transaction records**, Senate from **$3 / 1,000**; see [House pricing](https://apify.com/seralifatih/congress-trading-pipeline-1) and [Senate pricing](https://apify.com/seralifatih/congress-trading-pipeline). |
 
 ---
 
@@ -402,7 +403,7 @@ There is no universal "best" service. Start with the narrowest tool that satisfi
 [96] Highcharts Stock — [Official site](https://www.highcharts.com/products/stock/) · [Docs](https://api.highcharts.com/highstock/)  
 [97] Bokeh — [Official site](https://bokeh.org/) · [Docs](https://docs.bokeh.org/)  
 [98] mplfinance — [GitHub](https://github.com/matplotlib/mplfinance)  
-
+[99] Congress Trading Pipeline — [GitHub](https://github.com/seralifatih/congress-trading-pipeline) · [Senate actor](https://apify.com/seralifatih/congress-trading-pipeline) · [House actor](https://apify.com/seralifatih/congress-trading-pipeline-1)
 ---
 
 ## License
