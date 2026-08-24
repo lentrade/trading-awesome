@@ -8,7 +8,7 @@
 [![Last commit](https://img.shields.io/github/last-commit/lentrade/trading-awesome?style=flat-square&logo=git&label=Updated)](https://github.com/lentrade/trading-awesome/commits/main)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?style=flat-square&logo=github)](CONTRIBUTING.md)
 
-> A curated directory of **100+ trading services and open-source tools** for algorithmic traders, quantitative researchers, developers, and active investors. It covers broker and exchange APIs, stock and forex data, cryptocurrency market data, on-chain analytics, signal intelligence, backtesting, portfolio analytics, AI research, feature engineering, infrastructure, and financial visualization.
+> A curated directory of **130+ trading services and open-source tools** for algorithmic traders, quantitative researchers, developers, and active investors. It covers broker and exchange APIs, stock and forex data, cryptocurrency market data, on-chain analytics, signal intelligence, backtesting, portfolio analytics, AI research, feature engineering, infrastructure, financial visualization, **options and derivatives analytics**, **alternative data**, and **Web3 / DeFi infrastructure**.
 
 Reliable trading infrastructure is a prerequisite for serious research and automation. This SEO-friendly Awesome List makes it easier to compare **market-data APIs**, **brokerage APIs**, **crypto exchange APIs**, **forex platforms**, and **on-chain analytics tools** without treating fundamentally different products as interchangeable. It is intended as a practical discovery resource—not as an endorsement or a trading recommendation.
 
@@ -44,6 +44,9 @@ In addition to the main directory, this repository includes focused guides for s
 | [10. AI & machine-learning frameworks](#10-ai--machine-learning-frameworks) | Financial ML, reinforcement learning, LLM research, and agent orchestration |
 | [11. Feature engineering & technical analysis](#11-feature-engineering--technical-analysis) | Indicators, time-series features, labeling, and research transformations |
 | [12. Financial visualization](#12-financial-visualization) | Embeddable charts, dashboards, candlesticks, and research graphics |
+| [13. Options, volatility & derivatives analytics](#13-options-volatility--derivatives-analytics) | Options-flow analytics, volatility surfaces, Greeks, and derivatives pricing |
+| [14. Alternative data & external intelligence](#14-alternative-data--external-intelligence) | Satellite, web, credit-card, app, and non-traditional data sources |
+| [15. Web3, DeFi & MEV infrastructure](#15-web3-defi--mev-infrastructure) | DeFi protocols, yield analytics, MEV tools, and smart-contract data |
 | [Which service should I choose?](#which-service-should-i-choose) | Practical starting points for common trading and research tasks |
 | [Reference links](#reference-links) | Primary provider documentation and pricing sources |
 
@@ -281,6 +284,57 @@ Visualization libraries differ from data vendors: most render data that you must
 
 ---
 
+
+---
+
+## 13. Options, volatility & derivatives analytics
+
+Options and derivatives analytics require specialized data: implied-volatility surfaces, Greeks, skew, term structure, and open-interest distribution. These tools differ from general market-data APIs because they model non-linear payoff structures and sensitivity measures that change with spot, time, and volatility. Always verify whether a provider returns model-based or exchange-reported Greeks, and whether historical surfaces are end-of-day or intraday.[107] [108] [110]
+
+| Rank | Service | What it does | Markets / scope | API & packages | Public pricing / tariff |
+| ---: | --- | --- | --- | --- | --- |
+| 107 | **[ORATS](https://orats.com/)** [107] | Options-analytics platform offering volatility surfaces, Greeks, backtesting, and scanning APIs for U.S. equities and ETFs. | U.S. options; volatility; Research / automation | [API docs](https://orats.com/api) · Py: [community](https://github.com/orats-io) · Go/PHP: — | Public data plans start at **$200/month**; API and tick-data tiers are separately priced. |
+| 108 | **[CME Group Market Data](https://www.cmegroup.com/market-data.html)** [108] | Official futures and options market-data feeds from the world’s largest derivatives exchange, including real-time, delayed, and historical datasets. | Futures; options; commodities; FX; Traditional markets | [Data docs](https://www.cmegroup.com/market-data/market-data-services.html) · Py/Go/PHP: direct HTTP or vendor SDKs | Fees vary by data set, redistribution tier, and entitlement; exchange-direct pricing applies. |
+| 109 | **[Ivolatility](https://www.ivolatility.com/)** [109] | Historical and real-time implied-volatility data, volatility surfaces, skew charts, and options backtesting tools. | U.S. options; volatility; Research / automation | [Data services](https://www.ivolatility.com/data/services.html) · Py/Go/PHP: — | Subscription plans are tiered by history depth and coverage; see [pricing](https://www.ivolatility.com/data/pricing.html). |
+| 110 | **[SpotGamma](https://spotgamma.com/)** [110] | Equity-options market-structure analytics, gamma exposure estimates, dealer positioning, and key-level identification for U.S. equities and ETFs. | U.S. options; equities; Research | [Platform](https://spotgamma.com/) · Py/Go/PHP: — | Subscription-based; public plan tiers are listed on the site. |
+| 111 | **[OptionsPlay](https://optionsplay.com/)** [111] | Options-strategy analysis, income-scanner, and risk-visualization platform with earnings and unusual-activity alerts. | U.S. options; Research | [Platform](https://optionsplay.com/) · Py/Go/PHP: — | Subscription-based; plan details are published on the site. |
+| 112 | **[Quantcha](https://www.quantcha.com/)** [112] | Options-search and strategy-backtesting engine with volatility-cone, earnings-calendar, and risk-reward analysis. | U.S. options; Research / automation | [Platform](https://www.quantcha.com/) · Py/Go/PHP: — | Subscription-based; public tiers start from a monthly fee. |
+| 113 | **[TheoData](https://theodata.com/)** [113] | Historical options tick data and analytics for backtesting, volatility research, and strategy simulation. | U.S. options; historical data; Research / automation | [Platform](https://theodata.com/) · Py/Go/PHP: — | Pricing is dataset-dependent; contact sales for historical tick bundles. |
+
+---
+
+## 14. Alternative data & external intelligence
+
+Alternative data sources can provide signals that are orthogonal to price and volume, but they also introduce unique challenges: collection bias, lag, coverage gaps, and compliance constraints. Evaluate whether a dataset has sufficient history for backtesting, whether it can be replicated or is exclusive, and whether its alpha decays as adoption grows.[114] [115] [119]
+
+| Rank | Service | What it does | Markets / scope | API & packages | Public pricing / tariff |
+| ---: | --- | --- | --- | --- | --- |
+| 114 | **[SimilarWeb](https://www.similarweb.com/)** [114] | Web-traffic, app-usage, and digital-intelligence platform for estimating consumer engagement and competitive positioning. | Alternative data; equities; consumer | [API docs](https://developer.similarweb.com/) · Py: [community](https://github.com/similarweb) · Go/PHP: — | Free limited tier; paid plans and API access are custom-priced. |
+| 115 | **[Kpler](https://www.kpler.com/)** [115] | Commodity-tracking and vessel-analytics platform using satellite AIS, port data, and trade flows for energy and shipping markets. | Commodities; energy; shipping; Alternative data | [Platform](https://www.kpler.com/) · Py/Go/PHP: — | Enterprise-focused; pricing is on request. |
+| 116 | **[Orbital Insight](https://orbitalinsight.com/)** [116] | Geospatial analytics and satellite-imagery intelligence for supply-chain monitoring, retail traffic, and macro indicators. | Alternative data; macro; equities; commodities | [Platform](https://orbitalinsight.com/) · Py/Go/PHP: — | Enterprise-focused; pricing is on request. |
+| 117 | **[AWS Data Exchange](https://aws.amazon.com/data-exchange/)** [117] | Marketplace for subscribing to third-party financial, alternative, and reference datasets directly into AWS infrastructure. | Alternative data; multi-asset; Research / automation | [Docs](https://docs.aws.amazon.com/data-exchange/) · Py/Go/PHP: AWS SDKs | Subscription pricing is set by individual data providers; AWS infrastructure costs are separate. |
+| 118 | **[Snowflake Marketplace](https://www.snowflake.com/en/data-cloud/marketplace/)** [118] | Data marketplace for querying live financial, alternative, and proprietary datasets without ETL. | Alternative data; multi-asset; Research / automation | [Docs](https://other-docs.snowflake.com/en/collaboration/collaboration-marketplace-about) · Py/Go/PHP: Snowflake connectors | Provider-dependent pricing; Snowflake compute costs are metered separately. |
+| 119 | **[Second Measure](part of Bloomberg / [Bloomberg Second Measure](https://secondmeasure.com/))** [119] | Transaction-data analytics and consumer-spending intelligence derived from aggregated purchase panels. | Alternative data; consumer; equities | [Platform](https://secondmeasure.com/) · Py/Go/PHP: — | Enterprise-focused; pricing is on request. |
+| 120 | **[App Annie (data.ai)](https://www.data.ai/)** [120] | Mobile-app market intelligence for downloads, revenue, engagement, and competitive benchmarking. | Alternative data; consumer; equities; tech | [Platform](https://www.data.ai/) · Py/Go/PHP: — | Subscription-based; public plan tiers are listed on the site. |
+| 121 | **[Thinknum](https://thinknum.com/)** [121] | Alternative-data platform tracking job listings, store locations, product pricing, and social metrics for public and private companies. | Alternative data; equities; consumer | [Platform](https://thinknum.com/) · Py/Go/PHP: — | Enterprise-focused; pricing is on request. |
+| 122 | **[Eagle Alpha](https://eaglealpha.com/)** [122] | Alternative-data research and analytics platform connecting buy-side firms with niche dataset providers. | Alternative data; multi-asset; research | [Platform](https://eaglealpha.com/) · Py/Go/PHP: — | Enterprise-focused; pricing is on request. |
+
+---
+
+## 15. Web3, DeFi & MEV infrastructure
+
+Decentralized-finance infrastructure spans protocol analytics, yield optimization, MEV extraction, smart-contract monitoring, and cross-chain bridges. These tools sit closer to execution and infrastructure than to traditional market-data APIs: they interact with on-chain state, mempool transactions, and smart-contract events. Use them with appropriate wallet security, gas-management, and slippage controls.[123] [124] [127]
+
+| Rank | Service | What it does | Markets / scope | API & packages | Public pricing / tariff |
+| ---: | --- | --- | --- | --- | --- |
+| 123 | **[Token Terminal](https://tokenterminal.com/)** [123] | Fundamental analytics for DeFi protocols and crypto assets, including revenue, fees, P/F, and P/S metrics. | Crypto — on-chain / DeFi; Research / automation | [API docs](https://docs.tokenterminal.com/) · Py: [community](https://github.com/tokenterminal) · Go/PHP: — | Free tier with limited metrics; paid plans are tiered by coverage and API calls. |
+| 124 | **[The Graph](https://thegraph.com/)** [124] | Decentralized indexing protocol for querying blockchain data via subgraphs across multiple networks. | Crypto — on-chain / DeFi; infrastructure; Research / automation | [Docs](https://thegraph.com/docs/en/) · Py: [subgraph clients](https://thegraph.com/docs/en/querying/querying-the-graph/) · Go/PHP: direct GraphQL | Query costs are based on query volume and subgraph signaling; free tier exists for low-volume usage. |
+| 125 | **[Moralis](https://moralis.io/)** [125] | Web3 API and real-time blockchain data platform for wallet balances, NFTs, token prices, and event streams. | Crypto — on-chain / DeFi / NFTs; infrastructure | [Docs](https://docs.moralis.io/) · Py: [official](https://github.com/MoralisWeb3/Moralis-Python-SDK) · Go: [official](https://github.com/MoralisWeb3/Moralis-Go-SDK) · PHP: — | Free tier; paid plans start at **$49/month** for higher rate limits. |
+| 126 | **[Flashbots](https://www.flashbots.net/)** [126] | MEV research and infrastructure organization providing protect RPC, block builder, and mempool privacy tools. | Crypto — on-chain / DeFi; MEV; infrastructure | [Docs](https://docs.flashbots.net/) · Py/Go/PHP: — | Open-source tools; Flashbots Protect is free for end users; builder pricing is market-based. |
+| 127 | **[Jito Labs](https://www.jito.wtf/)** [127] | Solana MEV infrastructure including stake-weighted mempool access, block-engine auction, and liquid-staking derivatives. | Crypto — on-chain / DeFi; MEV; Solana | [Docs](https://jito-labs.gitbook.io/mev/) · Py/Go/PHP: — | Staking and MEV rewards are protocol-determined; infrastructure access is generally permissionless. |
+| 128 | **[EigenPhi](https://eigenphi.io/)** [128] | MEV and DeFi transaction-analytics platform for sandwich attacks, arbitrage, liquidation, and flow monitoring. | Crypto — on-chain / DeFi; MEV; Research | [Platform](https://eigenphi.io/) · Py/Go/PHP: — | Free dashboard; API and advanced analytics are subscription-based. |
+| 129 | **[CoW Protocol](https://cow.fi/)** [129] | Decentralized trading protocol using batch auctions and intent-based matching to protect users from MEV and price impact. | Crypto — on-chain / DeFi; DEX; Brokerage / execution | [Docs](https://docs.cow.fi/) · Py/Go/PHP: [SDKs](https://docs.cow.fi/cow-protocol/reference/sdks) | Protocol fees are taken from surplus; no separate subscription for API access. |
+
 ## Which service should I choose?
 
 There is no universal "best" service. Start with the narrowest tool that satisfies the actual workflow, then verify licensing, latency, geography, history depth, and operational limits. This matrix is a practical first stop, not a substitute for a proof of concept.
@@ -310,6 +364,11 @@ There is no universal "best" service. Start with the narrowest tool that satisfi
 | Performance tear sheets | [QuantStats](https://github.com/ranaroussi/quantstats) [74] | Return metrics, drawdowns, and HTML reports; pure analytics, not execution. |
 | Portfolio optimization | [Riskfolio-Lib](https://riskfolio-lib.readthedocs.io/) [75] or [skfolio](https://skfolio.org/) [76] | Risk parity, factor models, CVaR, and ML-compatible workflows. |
 | Derivatives pricing and curve/risk models | [QuantLib](https://www.quantlib.org/) [106] | Comprehensive modeling toolkit; its flexibility comes with a steeper learning curve and model-validation burden. |
+| U.S. options flow and volatility research | [ORATS](https://orats.com/) [107] or [SpotGamma](https://spotgamma.com/) [110] | Greeks, surfaces, and gamma-exposure analytics; verify model assumptions and update frequency. |
+| Commodity and shipping intelligence | [Kpler](https://www.kpler.com/) [115] | Satellite AIS and cargo-flow data for energy markets; enterprise contracts and latency vary. |
+| Alternative data discovery | [AWS Data Exchange](https://aws.amazon.com/data-exchange/) [117] or [Snowflake Marketplace](https://www.snowflake.com/en/data-cloud/marketplace/) [118] | Broad catalog of third-party datasets; evaluate history length, exclusivity, and alpha decay. |
+| DeFi protocol fundamentals | [Token Terminal](https://tokenterminal.com/) [123] | Revenue, fees, and valuation metrics for DeFi; definitions and revenue recognition differ by protocol. |
+| MEV protection and intent-based trading | [CoW Protocol](https://cow.fi/) [129] or [Flashbots](https://www.flashbots.net/) [126] | Minimize MEV extraction and price impact; understand settlement delay and batch-auction mechanics. |
 | Unified research data layer | [OpenBB](https://openbb.co/) [105] | Provider-agnostic research building blocks; review AGPL obligations before exposing a modified network service. |
 | Financial AI / ML research | [Microsoft Qlib](https://github.com/microsoft/qlib) [80] | End-to-end platform with data, models, and backtests; treat as research infrastructure. |
 | Financial NLP / LLM | [FinGPT](https://fingpt.io/) [82] | Sentiment, forecasting, and retrieval models; verify benchmarks against your use case. |
@@ -428,6 +487,29 @@ There is no universal "best" service. Start with the narrowest tool that satisfi
 [104] SEC EDGAR Data APIs — [data.sec.gov](https://data.sec.gov/) · [API docs](https://www.sec.gov/search-filings/edgar-application-programming-interfaces) · [Developer resources](https://www.sec.gov/developer)
 [105] OpenBB — [Official site](https://openbb.co/) · [Docs](https://docs.openbb.co/odp/python) · [REST API](https://docs.openbb.co/odp/python/quickstart/rest_api) · [License FAQ](https://docs.openbb.co/odp/python/faqs/license)
 [106] QuantLib — [Official site](https://www.quantlib.org/) · [Documentation](https://www.quantlib.org/documentation.shtml) · [GitHub](https://github.com/lballabio/QuantLib)
+[107] ORATS — [Official site](https://orats.com/) · [API docs](https://orats.com/api)
+[108] CME Group Market Data — [Official site](https://www.cmegroup.com/market-data.html) · [Data services](https://www.cmegroup.com/market-data/market-data-services.html)
+[109] Ivolatility — [Official site](https://www.ivolatility.com/) · [Data services](https://www.ivolatility.com/data/services.html) · [Pricing](https://www.ivolatility.com/data/pricing.html)
+[110] SpotGamma — [Official site](https://spotgamma.com/)
+[111] OptionsPlay — [Official site](https://optionsplay.com/)
+[112] Quantcha — [Official site](https://www.quantcha.com/)
+[113] TheoData — [Official site](https://theodata.com/)
+[114] SimilarWeb — [Official site](https://www.similarweb.com/) · [Developer API](https://developer.similarweb.com/)
+[115] Kpler — [Official site](https://www.kpler.com/)
+[116] Orbital Insight — [Official site](https://orbitalinsight.com/)
+[117] AWS Data Exchange — [Official site](https://aws.amazon.com/data-exchange/) · [Docs](https://docs.aws.amazon.com/data-exchange/)
+[118] Snowflake Marketplace — [Official site](https://www.snowflake.com/en/data-cloud/marketplace/) · [Docs](https://other-docs.snowflake.com/en/collaboration/collaboration-marketplace-about)
+[119] Second Measure (Bloomberg) — [Official site](https://secondmeasure.com/)
+[120] App Annie (data.ai) — [Official site](https://www.data.ai/)
+[121] Thinknum — [Official site](https://thinknum.com/)
+[122] Eagle Alpha — [Official site](https://eaglealpha.com/)
+[123] Token Terminal — [Official site](https://tokenterminal.com/) · [Docs](https://docs.tokenterminal.com/)
+[124] The Graph — [Official site](https://thegraph.com/) · [Docs](https://thegraph.com/docs/en/)
+[125] Moralis — [Official site](https://moralis.io/) · [Docs](https://docs.moralis.io/)
+[126] Flashbots — [Official site](https://www.flashbots.net/) · [Docs](https://docs.flashbots.net/)
+[127] Jito Labs — [Official site](https://www.jito.wtf/) · [Docs](https://jito-labs.gitbook.io/mev/)
+[128] EigenPhi — [Official site](https://eigenphi.io/)
+[129] CoW Protocol — [Official site](https://cow.fi/) · [Docs](https://docs.cow.fi/)
 ---
 
 ## License
