@@ -3,10 +3,10 @@
 ![Trading awesome](https://i.postimg.cc/SstfKwXF/trading-awesome-github.jpg)
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://github.com/sindresorhus/awesome)
-[![GitHub stars](https://img.shields.io/github/stars/lentrade/trading-awesome?style=for-the-badge&logo=github&label=Stars)](https://github.com/lentrade/trading-awesome/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/lentrade/trading-awesome?style=for-the-badge&logo=github&label=Forks)](https://github.com/lentrade/trading-awesome/forks)
-[![Last commit](https://img.shields.io/github/last-commit/lentrade/trading-awesome?style=for-the-badge&logo=git&label=Updated)](https://github.com/lentrade/trading-awesome/commits/main)
-[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?style=for-the-badge&logo=github)](CONTRIBUTING.md)
+[![GitHub stars](https://img.shields.io/github/stars/lentrade/trading-awesome?style=flat-square&logo=github&label=Stars)](https://github.com/lentrade/trading-awesome/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/lentrade/trading-awesome?style=flat-square&logo=github&label=Forks)](https://github.com/lentrade/trading-awesome/forks)
+[![Last commit](https://img.shields.io/github/last-commit/lentrade/trading-awesome?style=flat-square&logo=git&label=Updated)](https://github.com/lentrade/trading-awesome/commits/main)
+[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?style=flat-square&logo=github)](CONTRIBUTING.md)
 
 > A curated directory of **100+ trading services and open-source tools** for algorithmic traders, quantitative researchers, developers, and active investors. It covers broker and exchange APIs, stock and forex data, cryptocurrency market data, on-chain analytics, signal intelligence, backtesting, portfolio analytics, AI research, feature engineering, infrastructure, and financial visualization.
 
