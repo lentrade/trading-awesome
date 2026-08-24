@@ -2,7 +2,7 @@
 
 ![Trading awesome](https://i.postimg.cc/SstfKwXF/trading-awesome-github.jpg)
 
-> A curated directory of **90+ trading services and open-source tools** for algorithmic traders, quantitative researchers, developers, and active investors. It covers broker and exchange APIs, stock and forex data, cryptocurrency market data, on-chain analytics, signal intelligence, backtesting, portfolio analytics, AI research, feature engineering, infrastructure, and financial visualization.
+> A curated directory of **100+ trading services and open-source tools** for algorithmic traders, quantitative researchers, developers, and active investors. It covers broker and exchange APIs, stock and forex data, cryptocurrency market data, on-chain analytics, signal intelligence, backtesting, portfolio analytics, AI research, feature engineering, infrastructure, and financial visualization.
 
 Reliable trading infrastructure is a prerequisite for serious research and automation. This SEO-friendly Awesome List makes it easier to compare **market-data APIs**, **brokerage APIs**, **crypto exchange APIs**, **forex platforms**, and **on-chain analytics tools** without treating fundamentally different products as interchangeable. It is intended as a practical discovery resource—not as an endorsement or a trading recommendation.
 
@@ -75,6 +75,8 @@ These tools are the strongest starting points when a workflow needs more than da
 | 7 | **[tastytrade](https://tastytrade.com/)** [7] | Active-trader brokerage emphasizing U.S. options and futures, with a public developer platform and Python SDK. | U.S. stocks / ETFs / options / futures; crypto; Brokerage / execution | [Developer docs](https://developer.tastytrade.com/) · Py: [official](https://github.com/tastytrade/tastytrade-sdk-python) · Go: — · PHP: — | U.S. stocks/ETFs: $0 commission; public options pricing is **$1/contract, capped at $10/leg**; other product fees apply. |
 | 8 | **[Tradier](https://tradier.com/)** [8] | API-centric U.S. equities and options brokerage offering trading, account, and market-data endpoints. | U.S. equities / ETFs / options; Brokerage / execution | [API docs](https://docs.tradier.com/) · Py: [community](https://github.com/cablehead/python-tradier) · Go: [community](https://github.com/timpalpant/go-tradier) · PHP: — | Brokerage subscriptions publicly start at **$10/month**; commissions and exchange fees depend on plan and activity. |
 | 9 | **[CCXT](https://github.com/ccxt/ccxt)** [9] | Open-source unified API library that normalizes market-data and trading interfaces across many crypto exchanges. | Crypto — spot / on-chain / DeFi; Crypto — derivatives; Research / automation | [Docs](https://docs.ccxt.com/) · Py: [official](https://github.com/ccxt/ccxt/tree/master/python) · Go: [official](https://github.com/ccxt/ccxt/tree/master/go) · PHP: [official](https://github.com/ccxt/ccxt/tree/master/php) | Open-source core; **CCXT Pro** WebSocket plans are publicly listed from **$79/month**. |
+|  | **[Polymarket](https://polymarket.com/)** [101] | Prediction-market platform with CLOB trading, market discovery, order books, real-time feeds, and official client libraries. | Prediction markets; on-chain; Brokerage / execution; Research / automation | [Developer docs](https://docs.polymarket.com/) · Py/TS: [official clients](https://docs.polymarket.com/trading/quickstart) · Go/PHP: — | API access is public; trading fees, account eligibility, and product availability vary by market and jurisdiction. |
+|  | **[Kalshi](https://kalshi.com/)** [102] | Regulated event-contract exchange with REST and WebSocket APIs for market data, order books, trading, and portfolio workflows. | Prediction markets; event contracts; Brokerage / execution; Research / automation | [API docs](https://docs.kalshi.com/) · Py/TS: [official SDKs](https://docs.kalshi.com/sdks/overview) · Go/PHP: — | API access is available to eligible account holders; trading fees and product availability vary by contract and jurisdiction. |
 
 ---
 
@@ -98,6 +100,10 @@ For quantitative strategies and investment research, data quality depends on mor
 | 21 | **[Trading Economics](https://tradingeconomics.com/)** [21] | Macroeconomic and market-data platform for indicators, calendars, forecasts, commodities, bonds, currencies, and APIs. | Macro; Forex / FX; Traditional markets | [API docs](https://docs.tradingeconomics.com/) · Py: [official](https://github.com/tradingeconomics/tradingeconomics-python) · Go/PHP: [official multi-language repo](https://github.com/tradingeconomics/tradingeconomics) | Public Basic plan starts at **$22/month billed annually**. |
 | 22 | **[Marketstack](https://marketstack.com/)** [22] | REST API for end-of-day, intraday, and real-time equities data, designed for lightweight integrations. | Traditional markets; equities / ETFs | [API docs](https://docs.apilayer.com/marketstack/docs/api-documentation) · Py: [community](https://github.com/mreiche/marketstack-python) · Go: [community](https://github.com/tigusigalpa/marketstack-go) · PHP: [community](https://github.com/tigusigalpa/marketstack-php) | Free tier; public paid tiers start at **$9.99/month**. |
 | 23 | **[Unusual Whales](https://unusualwhales.com/)** [23] | Options-flow, dark-pool, congressional-trading, and market-analysis platform with a public API. | U.S. options; equities; Research / automation | [API docs](https://api.unusualwhales.com/docs) · Py: — · Go: — · PHP: — | Retail plans publicly start at **$42/month billed annually**; enterprise begins at **$750/month**. |
+|  | **[DepthFeed](https://depthfeed.com/)** [100] | Historical and live prediction-market order-book data for systematic backtesting and liquidity analysis. | Research / automation | [API docs](https://depthfeed.com/docs) · [MCP](https://github.com/vcorp-dev/depthfeed-mcp) · Py/Go/PHP: — | Free Explorer tier; paid plans are listed on the [official pricing page](https://depthfeed.com/pricing). |
+|  | **[FRED / ALFRED API](https://fred.stlouisfed.org/)** [103] | Federal Reserve macroeconomic time-series service, including historical vintage data for revision-aware research. | U.S. macro; economic releases; Traditional markets; Research / automation | [API docs](https://fred.stlouisfed.org/docs/api/fred/) · Py: [community `fredapi`](https://github.com/mortada/fredapi) · Go/PHP: direct HTTP | Free with an API key; rate limits and terms apply. |
+|  | **[SEC EDGAR Data APIs](https://data.sec.gov/)** [104] | First-party U.S. filing history and structured XBRL financial-statement data for company, fundamental, and event research. | U.S. equities; filings; fundamentals; Traditional markets; Research / automation | [API docs](https://www.sec.gov/search-filings/edgar-application-programming-interfaces) · Py/Go/PHP: direct HTTP | Free and no API key required; automated access must follow SEC fair-access policies. |
+|  | **[OpenBB](https://openbb.co/)** [105] | Modular financial-research platform that standardizes access to data providers, analytics extensions, Python workflows, and self-hosted FastAPI endpoints. | Multi-asset research; data integration; Research / automation | [Docs](https://docs.openbb.co/odp/python) · Py: [official](https://github.com/OpenBB-finance/OpenBB) · REST API: [official](https://docs.openbb.co/odp/python/quickstart/rest_api) · Go/PHP: — | Open Data Platform is AGPLv3; commercial licensing is available for proprietary network services. |
 
 ---
 
@@ -219,6 +225,7 @@ These libraries answer different questions: some explain realized performance, w
 | 78 | **[PyPortfolioOpt](https://pyportfolioopt.readthedocs.io/)** [77] | Python implementation of mean-variance, Black-Litterman, hierarchical risk parity, shrinkage, and related allocation methods. | Portfolio construction; allocation research | [Docs](https://pyportfolioopt.readthedocs.io/en/latest/) · Py: [official](https://github.com/robertmartin8/PyPortfolioOpt) · Go/PHP: — | Open source. |
 | 79 | **[empyrical-reloaded](https://github.com/stefan-jansen/empyrical-reloaded)** [78] | Maintained fork of the return and risk-statistics library historically used by the Quantopian analytics ecosystem. | Portfolio analytics; risk metrics; Research | Py: [community-maintained](https://github.com/stefan-jansen/empyrical-reloaded) · Go/PHP: — | Open source; verify compatibility and release cadence. |
 | 80 | **[pyfolio-reloaded](https://github.com/stefan-jansen/pyfolio-reloaded)** [79] | Maintained fork of pyfolio for portfolio and risk tear sheets, exposure analysis, and transaction-level diagnostics. | Portfolio analytics; risk; reporting | Py: [community-maintained](https://github.com/stefan-jansen/pyfolio-reloaded) · Go/PHP: — | Open source; verify compatibility and release cadence. |
+|  | **[QuantLib](https://www.quantlib.org/)** [106] | Open-source quantitative-finance library for instrument pricing, yield curves, calendars, models, and risk analysis. | Derivatives; fixed income; quantitative research; risk | [Docs](https://www.quantlib.org/documentation.shtml) · C++: [official](https://github.com/lballabio/QuantLib) · Py: [official bindings](https://github.com/lballabio/QuantLib-SWIG) · Go/PHP: — | Open source under a modified BSD license. |
 
 ---
 
@@ -280,7 +287,9 @@ There is no universal "best" service. Start with the narrowest tool that satisfi
 | Broad retail-friendly multi-asset API | [Twelve Data](https://twelvedata.com/) [11] | Wide coverage and straightforward docs; confirm entitlements, latency, and call budgets. |
 | Exchange-sourced historical market data | [Databento](https://databento.com/) [16] | Standardized schemas and strong systematic-research workflow; venue data costs matter. |
 | Macroeconomic indicators and calendars | [Trading Economics](https://tradingeconomics.com/) [21] | Structured macro, forecast, and calendar API; redistribution and plan limits require review. |
-| Free public macro time series | FRED via an existing data provider or direct API | Excellent U.S.-centric macro baseline; release timing and revisions must be modeled. |
+| Free public macro time series | [FRED / ALFRED API](https://fred.stlouisfed.org/) [103] | Excellent U.S.-centric macro baseline; release timing and revisions must be modeled. |
+| U.S. filings and reported fundamentals | [SEC EDGAR Data APIs](https://data.sec.gov/) [104] | First-party filings and XBRL facts; map CIKs carefully and respect SEC fair-access requirements. |
+| Prediction-market data or execution | [Polymarket](https://polymarket.com/) [101], [Kalshi](https://kalshi.com/) [102], or [DepthFeed](https://depthfeed.com/) [100] | Use a venue API for live markets and orders; use DepthFeed when historical order-book research is the priority. |
 | Crypto prices and asset metadata | [CoinGecko](https://www.coingecko.com/) [30] | Practical discovery API with broad asset coverage; rate limits and commercial rights depend on plan. |
 | Crypto derivatives, funding, and liquidations | [CoinGlass](https://www.coinglass.com/) [32] | Focused derivatives dashboards and API; methodology and venue aggregation should be verified. |
 | Deep on-chain metrics | [Glassnode](https://glassnode.com/) [33] | Curated network and market metrics; advanced/API access can be expensive. |
@@ -294,6 +303,8 @@ There is no universal "best" service. Start with the narrowest tool that satisfi
 | Crypto bot with backtesting | [Freqtrade](https://www.freqtrade.io/) [68] | Active community, dry-run support, and hyperopt; crypto-only. |
 | Performance tear sheets | [QuantStats](https://github.com/ranaroussi/quantstats) [74] | Return metrics, drawdowns, and HTML reports; pure analytics, not execution. |
 | Portfolio optimization | [Riskfolio-Lib](https://riskfolio-lib.readthedocs.io/) [75] or [skfolio](https://skfolio.org/) [76] | Risk parity, factor models, CVaR, and ML-compatible workflows. |
+| Derivatives pricing and curve/risk models | [QuantLib](https://www.quantlib.org/) [106] | Comprehensive modeling toolkit; its flexibility comes with a steeper learning curve and model-validation burden. |
+| Unified research data layer | [OpenBB](https://openbb.co/) [105] | Provider-agnostic research building blocks; review AGPL obligations before exposing a modified network service. |
 | Financial AI / ML research | [Microsoft Qlib](https://github.com/microsoft/qlib) [80] | End-to-end platform with data, models, and backtests; treat as research infrastructure. |
 | Financial NLP / LLM | [FinGPT](https://fingpt.io/) [82] | Sentiment, forecasting, and retrieval models; verify benchmarks against your use case. |
 | Technical indicators in Python | [TA-Lib](https://ta-lib.org/) [87] or [pandas-ta-classic](https://github.com/twopirllc/pandas-ta) [88] | Established libraries; pin versions when indicator parity matters across environments. |
@@ -404,6 +415,13 @@ There is no universal "best" service. Start with the narrowest tool that satisfi
 [97] Bokeh — [Official site](https://bokeh.org/) · [Docs](https://docs.bokeh.org/)  
 [98] mplfinance — [GitHub](https://github.com/matplotlib/mplfinance)  
 [99] Congress Trading Pipeline — [GitHub](https://github.com/seralifatih/congress-trading-pipeline) · [Senate actor](https://apify.com/seralifatih/congress-trading-pipeline) · [House actor](https://apify.com/seralifatih/congress-trading-pipeline-1)
+[100] DepthFeed — [Official site](https://depthfeed.com/) · [API docs](https://depthfeed.com/docs) · [MCP](https://github.com/vcorp-dev/depthfeed-mcp) · [Pricing](https://depthfeed.com/pricing)
+[101] Polymarket — [Official site](https://polymarket.com/) · [Developer docs](https://docs.polymarket.com/) · [Trading quickstart](https://docs.polymarket.com/trading/quickstart)
+[102] Kalshi — [Official site](https://kalshi.com/) · [API docs](https://docs.kalshi.com/) · [Official SDKs](https://docs.kalshi.com/sdks/overview)
+[103] FRED / ALFRED API — [FRED](https://fred.stlouisfed.org/) · [API docs](https://fred.stlouisfed.org/docs/api/fred/) · [Terms](https://fred.stlouisfed.org/docs/api/terms_of_use.html)
+[104] SEC EDGAR Data APIs — [data.sec.gov](https://data.sec.gov/) · [API docs](https://www.sec.gov/search-filings/edgar-application-programming-interfaces) · [Developer resources](https://www.sec.gov/developer)
+[105] OpenBB — [Official site](https://openbb.co/) · [Docs](https://docs.openbb.co/odp/python) · [REST API](https://docs.openbb.co/odp/python/quickstart/rest_api) · [License FAQ](https://docs.openbb.co/odp/python/faqs/license)
+[106] QuantLib — [Official site](https://www.quantlib.org/) · [Documentation](https://www.quantlib.org/documentation.shtml) · [GitHub](https://github.com/lballabio/QuantLib)
 ---
 
 ## License
@@ -417,5 +435,5 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guid
 ---
 
 <p align="center">
-  <sub>Curated with ❤️ for the trading and quant community. Last updated: 27 July 2026.</sub>
+  <sub>Curated with ❤️ for the trading and quant community. Last updated: 24 August 2026.</sub>
 </p>
