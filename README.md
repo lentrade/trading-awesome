@@ -8,7 +8,7 @@
 [![Last commit](https://img.shields.io/github/last-commit/lentrade/trading-awesome?style=flat-square&logo=git&label=Updated)](https://github.com/lentrade/trading-awesome/commits/main)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?style=flat-square&logo=github)](CONTRIBUTING.md)
 
-> A curated directory of **130+ trading services and open-source tools** for algorithmic traders, quantitative researchers, developers, and active investors. It covers broker and exchange APIs, stock and forex data, cryptocurrency market data, on-chain analytics, signal intelligence, backtesting, portfolio analytics, AI research, feature engineering, infrastructure, financial visualization, **options and derivatives analytics**, **alternative data**, and **Web3 / DeFi infrastructure**.
+> A curated directory of **140+ trading services and open-source tools** for algorithmic traders, quantitative researchers, developers, and active investors. It covers broker and exchange APIs, stock and forex data, cryptocurrency market data, on-chain analytics, signal intelligence, backtesting, portfolio analytics, AI research, feature engineering, infrastructure, financial visualization, **options and derivatives analytics**, **alternative data**, and **Web3 / DeFi infrastructure**.
 
 Reliable trading infrastructure is a prerequisite for serious research and automation. This SEO-friendly Awesome List makes it easier to compare **market-data APIs**, **brokerage APIs**, **crypto exchange APIs**, **forex platforms**, and **on-chain analytics tools** without treating fundamentally different products as interchangeable. It is intended as a practical discovery resource—not as an endorsement or a trading recommendation.
 
@@ -47,6 +47,7 @@ In addition to the main directory, this repository includes focused guides for s
 | [13. Options, volatility & derivatives analytics](#13-options-volatility--derivatives-analytics) | Options-flow analytics, volatility surfaces, Greeks, and derivatives pricing |
 | [14. Alternative data & external intelligence](#14-alternative-data--external-intelligence) | Satellite, web, credit-card, app, and non-traditional data sources |
 | [15. Web3, DeFi & MEV infrastructure](#15-web3-defi--mev-infrastructure) | DeFi protocols, yield analytics, MEV tools, and smart-contract data |
+| [16. Education, competitions & quant communities](#16-education-competitions--quant-communities) | Learning platforms, research tournaments, strategy databases, and academic papers |
 | [Which service should I choose?](#which-service-should-i-choose) | Practical starting points for common trading and research tasks |
 | [Reference links](#reference-links) | Primary provider documentation and pricing sources |
 
@@ -335,6 +336,23 @@ Decentralized-finance infrastructure spans protocol analytics, yield optimizatio
 | 128 | **[EigenPhi](https://eigenphi.io/)** [128] | MEV and DeFi transaction-analytics platform for sandwich attacks, arbitrage, liquidation, and flow monitoring. | Crypto — on-chain / DeFi; MEV; Research | [Platform](https://eigenphi.io/) · Py/Go/PHP: — | Free dashboard; API and advanced analytics are subscription-based. |
 | 129 | **[CoW Protocol](https://cow.fi/)** [129] | Decentralized trading protocol using batch auctions and intent-based matching to protect users from MEV and price impact. | Crypto — on-chain / DeFi; DEX; Brokerage / execution | [Docs](https://docs.cow.fi/) · Py/Go/PHP: [SDKs](https://docs.cow.fi/cow-protocol/reference/sdks) | Protocol fees are taken from surplus; no separate subscription for API access. |
 
+
+---
+
+## 16. Education, competitions & quant communities
+
+Quantitative finance is a field where skill development, peer review, and reproducible research matter as much as capital and data. These platforms offer structured learning, competitive practice, curated research, and open-source discovery. They do not replace a trading strategy, but they can accelerate the path from idea to validated hypothesis.[130] [131] [133]
+
+| Rank | Service | What it does | Markets / scope | API & packages | Public pricing / tariff |
+| ---: | --- | --- | --- | --- | --- |
+| 130 | **[Numerai](https://numer.ai/)** [130] | Crowdsourced hedge fund with weekly machine-learning tournaments on obfuscated financial datasets; contributors stake and earn returns for performant models. | Traditional markets; ML competitions; quantitative research | [Docs](https://numer.ai/learn) · Py: [official](https://github.com/numerai/numerai) · Go/PHP: — | Free to participate; staking requires cryptocurrency and carries risk of loss. |
+| 131 | **[WorldQuant BRAIN](https://www.worldquantbrain.com/)** [131] | Global quantitative-research platform for discovering, backtesting, and simulating alphas across international equity markets. | Traditional markets; quantitative research; competitions | [Platform](https://www.worldquantbrain.com/) · Py: [research SDK](https://www.worldquantbrain.com/) · Go/PHP: — | Free research platform; compensation and licensing terms apply to submitted alphas. |
+| 132 | **[Kaggle](https://www.kaggle.com/)** [132] | Data-science competition platform hosting finance-relevant datasets, notebooks, and community challenges with leaderboards. | Multi-asset; ML competitions; alternative data | [Docs](https://www.kaggle.com/docs) · Py/R: [Kaggle API](https://github.com/Kaggle/kaggle-api) · Go/PHP: — | Free tier; competitions are generally free to enter. |
+| 133 | **[Quantpedia](https://quantpedia.com/)** [133] | Curated database of quantitative and algorithmic trading strategies extracted and summarized from academic research papers. | Traditional markets; quantitative research; strategy library | [Platform](https://quantpedia.com/) · Py/Go/PHP: — | Free preview; premium subscription unlocks full strategy details, code, and data. |
+| 134 | **[Awesome Quant](https://github.com/wilsonfreitas/awesome-quant)** [134] | Community-curated GitHub list of open-source quant libraries, data sources, books, and educational materials across multiple languages. | Multi-asset; open source; education | GitHub: [community](https://github.com/wilsonfreitas/awesome-quant) · Py/Go/PHP: — | Open source; free. |
+| 135 | **[SSRN](https://www.ssrn.com/)** [135] | Working-paper repository with extensive coverage of quantitative finance, asset pricing, and algorithmic-trading research. | Traditional markets; quantitative research; macro | [API](https://www.ssrn.com/) · Py/Go/PHP: — | Free to read and submit; some papers may have publisher paywalls after journal acceptance. |
+| 136 | **[arXiv Quantitative Finance](https://arxiv.org/archive/q-fin)** [136] | Open-access preprint server for quantitative-finance papers including trading models, risk management, and market-microstructure research. | Traditional markets; crypto; quantitative research | [API](https://arxiv.org/help/api/) · Py/Go/PHP: direct HTTP or [community clients](https://arxiv.org/help/api/) | Free to read and submit. |
+
 ## Which service should I choose?
 
 There is no universal "best" service. Start with the narrowest tool that satisfies the actual workflow, then verify licensing, latency, geography, history depth, and operational limits. This matrix is a practical first stop, not a substitute for a proof of concept.
@@ -376,6 +394,9 @@ There is no universal "best" service. Start with the narrowest tool that satisfi
 | Time-series feature extraction | [tsfresh](https://tsfresh.com/) [90] | Automated extraction and relevance filtering; computation can be intensive on long series. |
 | Financial charts on the web | [TradingView Lightweight Charts](https://www.tradingview.com/lightweight-charts/) [93] | Compact, streaming, free; you bring the data and the data license. |
 | Research plots and dashboards | [Plotly](https://plotly.com/) [94] or [Bokeh](https://bokeh.org/) [97] | Interactive Python-native plotting; no market data included. |
+| ML competitions on financial data | [Numerai](https://numer.ai/) [130] | Obfuscated datasets and staking mechanics; treat as research, not a strategy. |
+| Quantitative alpha research | [WorldQuant BRAIN](https://www.worldquantbrain.com/) [131] | Structured alpha discovery with backtesting; submitted ideas may be licensed. |
+| Academic strategy research | [Quantpedia](https://quantpedia.com/) [133] or [SSRN](https://www.ssrn.com/) [135] | Summarized strategies and working papers; always verify out-of-sample before deploying. |
 
 ---
 
@@ -510,6 +531,13 @@ There is no universal "best" service. Start with the narrowest tool that satisfi
 [127] Jito Labs — [Official site](https://www.jito.wtf/) · [Docs](https://jito-labs.gitbook.io/mev/)
 [128] EigenPhi — [Official site](https://eigenphi.io/)
 [129] CoW Protocol — [Official site](https://cow.fi/) · [Docs](https://docs.cow.fi/)
+[130] Numerai — [Official site](https://numer.ai/) · [Docs](https://numer.ai/learn) · [GitHub](https://github.com/numerai/numerai)
+[131] WorldQuant BRAIN — [Official site](https://www.worldquantbrain.com/)
+[132] Kaggle — [Official site](https://www.kaggle.com/) · [Docs](https://www.kaggle.com/docs)
+[133] Quantpedia — [Official site](https://quantpedia.com/)
+[134] Awesome Quant — [GitHub](https://github.com/wilsonfreitas/awesome-quant)
+[135] SSRN — [Official site](https://www.ssrn.com/)
+[136] arXiv Quantitative Finance — [Official site](https://arxiv.org/archive/q-fin) · [API docs](https://arxiv.org/help/api/)
 ---
 
 ## License
