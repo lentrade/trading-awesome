@@ -2,6 +2,12 @@
 
 ![Trading awesome](https://i.postimg.cc/SstfKwXF/trading-awesome-github.jpg)
 
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://github.com/sindresorhus/awesome)
+[![GitHub stars](https://img.shields.io/github/stars/lentrade/trading-awesome?style=for-the-badge&logo=github&label=Stars)](https://github.com/lentrade/trading-awesome/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/lentrade/trading-awesome?style=for-the-badge&logo=github&label=Forks)](https://github.com/lentrade/trading-awesome/forks)
+[![Last commit](https://img.shields.io/github/last-commit/lentrade/trading-awesome?style=for-the-badge&logo=git&label=Updated)](https://github.com/lentrade/trading-awesome/commits/main)
+[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?style=for-the-badge&logo=github)](CONTRIBUTING.md)
+
 > A curated directory of **100+ trading services and open-source tools** for algorithmic traders, quantitative researchers, developers, and active investors. It covers broker and exchange APIs, stock and forex data, cryptocurrency market data, on-chain analytics, signal intelligence, backtesting, portfolio analytics, AI research, feature engineering, infrastructure, and financial visualization.
 
 Reliable trading infrastructure is a prerequisite for serious research and automation. This SEO-friendly Awesome List makes it easier to compare **market-data APIs**, **brokerage APIs**, **crypto exchange APIs**, **forex platforms**, and **on-chain analytics tools** without treating fundamentally different products as interchangeable. It is intended as a practical discovery resource—not as an endorsement or a trading recommendation.
