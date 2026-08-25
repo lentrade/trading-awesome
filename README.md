@@ -169,6 +169,7 @@ These services are valuable to discretionary and hybrid workflows even when they
 | 49 | **[CoinQuant](https://www.coinquant.ai/)** [48] | No-code, AI-assisted strategy builder and backtesting platform for market research and systematic experimentation. | Crypto; traditional markets; Research / automation | [Public API skills pack](https://www.coinquant.ai/documentation/public-api-skills-pack) · Py: — · Go: — · PHP: — | Free credits; public paid plans listed from **$12.99/week**. |
 | 50 | **[TradingCursor](https://www.tradingcursor.com/)** [49] | AI-assisted multi-signal research product for stocks, ETFs, forex, and crypto decision support. | Traditional markets; Forex / FX; crypto; Research | No public API identified · Py: — · Go: — · PHP: — | Free daily analysis; Pro is publicly listed at **$9.90/month**. |
 | 51 | **[LONA™](https://www.lona.agency/en)** [50] | No-code AI trading assistant for creating, backtesting, and optimizing trading ideas. | Traditional markets; Forex / FX; crypto; Research / automation | No public API identified · Py: — · Go: — · PHP: — | Free tier; Pro **$49/month**, Premium **$99/month**, Quant **$249/month**. |
+| | **[Thrive](https://thrive.fi/)** [137] | CEX perpetuals trading journal and market-intelligence workstation for active traders, with read-only exchange sync. | Crypto — derivatives; Research / automation | No public API identified · Py: — · Go: — · PHP: — | Public Pro plan is **$7** due today, then **$99/month** or **$999/year**; see [official pricing](https://thrive.fi/pricing). |
 
 ---
 
@@ -538,6 +539,7 @@ There is no universal "best" service. Start with the narrowest tool that satisfi
 [134] Awesome Quant — [GitHub](https://github.com/wilsonfreitas/awesome-quant)
 [135] SSRN — [Official site](https://www.ssrn.com/)
 [136] arXiv Quantitative Finance — [Official site](https://arxiv.org/archive/q-fin) · [API docs](https://arxiv.org/help/api/)
+[137] Thrive — [Official site](https://thrive.fi/) · [Documentation](https://thrive.fi/docs) · [Pricing](https://thrive.fi/pricing)
 ---
 
 ## License
