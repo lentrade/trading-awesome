@@ -156,6 +156,7 @@ On-chain analytics and crypto intelligence tools help traders evaluate network a
 | 44 | **[Whale Alert](https://whale-alert.io/)** [43] | Real-time large-transaction monitoring and blockchain analytics via alert streams and enterprise REST data. | Crypto — on-chain; stablecoins; alerts | [API docs](https://developer.whale-alert.io/api-account/documentation) · Py: code examples only · Go: code examples only · PHP: — | Alerts API: **$29.95/month**; Enterprise API: **$699/month**. |
 | 45 | **[LunarCrush](https://lunarcrush.com/)** [44] | Social and market-intelligence service for crypto and broader trending assets, with developer endpoints. | Crypto; social intelligence; selected traditional assets | [Developer API](https://lunarcrush.com/en/developers/api) · Py: — · Go: [lunarcrush-go](https://github.com/tigusigalpa/lunarcrush-go) · PHP: [lunarcrush-php](https://github.com/tigusigalpa/lunarcrush-php) | Hobby free tier; paid developer plans publicly start at **$5/day**. |
 | 46 | **[CoinAPI](https://www.coinapi.io/)** [45] | Unified crypto market-data service for exchange rates, trades, order books, OHLCV, and indexes. | Crypto — spot; Crypto — derivatives; market data | [API docs](https://docs.coinapi.io/) · Py: no verified official GitHub package · Go: — · PHP: — | Free credits; public paid plans start at **$249/month**. |
+| | **[Northstar](https://crypto.daan.gg/)** [138] | Crypto market-data API for USD pair-average tickers and candles from live exchanges, with read-time quote conversion. | Crypto — spot / on-chain / DeFi | [API docs](https://crypto.daan.gg/developers/docs) · Py: — · Go: — · PHP: — | Free sandbox; public paid API plans start at **€49/month** excluding VAT; see [official pricing](https://crypto.daan.gg/pricing). |
 
 ---
 
@@ -371,6 +372,7 @@ There is no universal "best" service. Start with the narrowest tool that satisfi
 | U.S. filings and reported fundamentals | [SEC EDGAR Data APIs](https://data.sec.gov/) [104] | First-party filings and XBRL facts; map CIKs carefully and respect SEC fair-access requirements. |
 | Prediction-market data or execution | [Polymarket](https://polymarket.com/) [101], [Kalshi](https://kalshi.com/) [102], or [DepthFeed](https://depthfeed.com/) [100] | Use a venue API for live markets and orders; use DepthFeed when historical order-book research is the priority. |
 | Crypto prices and asset metadata | [CoinGecko](https://www.coingecko.com/) [30] | Practical discovery API with broad asset coverage; rate limits and commercial rights depend on plan. |
+| Cross-exchange USD pair averages | [Northstar](https://crypto.daan.gg/developers/docs) [138] | Volume-weighted tickers and candles from live exchanges; sandbox is free, paid plans start at €49/month excluding VAT. |
 | Crypto derivatives, funding, and liquidations | [CoinGlass](https://www.coinglass.com/) [32] | Focused derivatives dashboards and API; methodology and venue aggregation should be verified. |
 | Deep on-chain metrics | [Glassnode](https://glassnode.com/) [33] | Curated network and market metrics; advanced/API access can be expensive. |
 | Custom blockchain SQL research | [Dune](https://dune.com/) [36] | Flexible public queries and dashboards; query freshness, credits, and chain schemas vary. |
@@ -541,6 +543,7 @@ There is no universal "best" service. Start with the narrowest tool that satisfi
 [135] SSRN — [Official site](https://www.ssrn.com/)
 [136] arXiv Quantitative Finance — [Official site](https://arxiv.org/archive/q-fin) · [API docs](https://arxiv.org/help/api/)
 [137] Thrive — [Official site](https://thrive.fi/) · [Documentation](https://thrive.fi/docs) · [Pricing](https://thrive.fi/pricing)
+[138] Northstar — [Official site](https://crypto.daan.gg/) · [API docs](https://crypto.daan.gg/developers/docs) · [Pricing](https://crypto.daan.gg/pricing)
 ---
 
 ## License
