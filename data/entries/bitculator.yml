@@ -1,0 +1,11 @@
+name: Bitculator
+url: https://bitculator.com/
+category: crypto-intelligence
+description: Crypto market data API and remote MCP server for prices averaged across 16 exchanges, market caps, a per-coin Fear & Greed index, technical indicators and exchange trust scores.
+scope: Spot prices, sentiment indices, technical indicators, exchange trust scores; Crypto — spot / on-chain / DeFi; Research / automation
+api: '[API docs](https://bitculator.com/en/documentation/api/v1) · Py: [official](https://github.com/Bitculator/bitculator-python-sdk) · Go: [official](https://github.com/Bitculator/bitculator-go-sdk) · PHP: [official](https://github.com/Bitculator/bitculator-php-sdk) · TS: [official](https://github.com/Bitculator/bitculator-typescript-sdk) · Rust: [official](https://github.com/Bitculator/bitculator-rust-sdk) · Java: [official](https://github.com/Bitculator/bitculator-java-sdk) · C#: [official](https://github.com/Bitculator/bitculator-dotnet-sdk) · [MCP](https://github.com/Bitculator/bitculator-mcp)'
+pricing: Free tier with 10,000 requests per month; paid plans start at **$9.99/month**; see [official pricing](https://bitculator.com/en/crypto-api).
+repo: https://github.com/Bitculator/bitculator-python-sdk
+affiliation: vendor
+added: 2026-10-18
+last_verified: 2026-10-18
