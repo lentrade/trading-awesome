@@ -1,0 +1,11 @@
+name: Equibles
+url: https://equibles.com/
+category: market-data
+description: 'Hosted MCP server and REST API for U.S. stock data: SEC filing search and text, XBRL financial statements, earnings call transcripts, insider and congressional trades, 13F holdings, short interest and prices.'
+scope: U.S. equities / SEC filings / earnings call transcripts / ownership data; Traditional markets; Research / automation
+api: '[API docs](https://equibles.com/docs/api) · Py/Go/PHP: — · [MCP](https://equibles.com/docs/mcp)'
+pricing: Free tier of **100 requests/day** across MCP and REST, no card; paid plans start at **$9.99/month**; see [official pricing](https://equibles.com/pricing).
+repo: https://github.com/daniel3303/Equibles
+affiliation: vendor
+added: 2026-10-19
+last_verified: 2026-10-19
