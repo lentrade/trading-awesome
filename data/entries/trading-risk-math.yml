@@ -1,8 +1,8 @@
 name: trading-risk-math
 url: https://yuratrading.com/tools/risk-of-ruin-calculator
-category: infrastructure
+category: portfolio-risk
 description: Open-source TypeScript library for risk of ruin (seeded simulation and an exact, simulation-free method) and Monte Carlo resampling of a trade list, with free browser calculators built on it.
-scope: Any market; trade-level risk maths; Forex / FX; Brokerage / execution
+scope: Any market; trade-level risk maths; Forex / FX; Research / automation
 api: 'No public API identified · Py/Go/PHP: — · TS: [official](https://github.com/dakshalraijada/trading-risk-math)'
 pricing: Open source.
 affiliation: vendor
