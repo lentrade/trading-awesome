@@ -60,7 +60,7 @@ In addition to the main directory, this repository includes focused guides for s
 <!-- BEGIN GENERATED:recent -->
 | Added | Service | Section |
 | --- | --- | --- |
-| 2026-10-25 | [trading-risk-math](https://yuratrading.com/tools/risk-of-ruin-calculator) | [7. Trading infrastructure & event-driven systems](#7-trading-infrastructure--event-driven-systems) |
+| 2026-10-25 | [trading-risk-math](https://yuratrading.com/tools/risk-of-ruin-calculator) | [9. Portfolio analytics & risk](#9-portfolio-analytics--risk) |
 | 2026-10-19 | [Equibles](https://equibles.com/) | [2. Traditional markets, macro & multi-asset data](#2-traditional-markets-macro--multi-asset-data) |
 | 2026-10-18 | [Bitculator](https://bitculator.com/) | [4. Crypto market intelligence & on-chain analytics](#4-crypto-market-intelligence--on-chain-analytics) |
 | 2026-10-10 | [Hydromancer](https://hydromancer.xyz/) | [4. Crypto market intelligence & on-chain analytics](#4-crypto-market-intelligence--on-chain-analytics) |
@@ -275,7 +275,6 @@ These are general-purpose infrastructure projects rather than signal generators.
 | **[Redis](https://redis.io/)** | In-memory data platform commonly used for caching, ephemeral state, pub/sub, streams, queues, and rate limiting. | Research / automation; low-latency state; messaging | [Docs](https://redis.io/docs/latest/) · Py: [official](https://github.com/redis/redis-py) · Go: [official](https://github.com/redis/go-redis) · PHP: [community](https://github.com/phpredis/phpredis) | Source-available/community distributions and commercial cloud products have different licenses and prices; review current terms. |
 | **[Redpanda](https://www.redpanda.com/)** | Kafka-compatible streaming platform in C++ with lower operational overhead for market-data and order-event pipelines. | Research / automation; event streaming; messaging | [Docs](https://docs.redpanda.com/) · Kafka-protocol clients across Py/Go/PHP | Open-source/community edition; cloud and enterprise are paid. |
 | **[TimescaleDB](https://www.tigerdata.com/timescaledb)** | PostgreSQL extension for time-series storage, continuous aggregates, retention, and SQL analytics, developed by Tiger Data (formerly Timescale). | Research / automation; time series; operational analytics | [Docs](https://www.tigerdata.com/docs) · [Source](https://github.com/timescale/timescaledb) · Uses PostgreSQL drivers across Py/Go/PHP | Open-source components and paid cloud service; usage and support terms vary. |
-| **[trading-risk-math](https://yuratrading.com/tools/risk-of-ruin-calculator)** | Open-source TypeScript library for risk of ruin (seeded simulation and an exact, simulation-free method) and Monte Carlo resampling of a trade list, with free browser calculators built on it. | Any market; trade-level risk maths; Forex / FX; Brokerage / execution | No public API identified · Py/Go/PHP: — · TS: [official](https://github.com/dakshalraijada/trading-risk-math) | Open source. |
 <!-- END GENERATED:table:infrastructure -->
 
 ---
@@ -325,6 +324,7 @@ These libraries answer different questions: some explain realized performance, w
 | **[QuantStats](https://github.com/ranaroussi/quantstats)** | Python toolkit for return-series metrics, drawdowns, comparisons, tearsheets, and HTML performance reports. | Portfolio analytics; risk; reporting | Py: [official repository](https://github.com/ranaroussi/quantstats) · Go/PHP: — | Open source. |
 | **[Riskfolio-Lib](https://riskfolio-lib.readthedocs.io/)** | Portfolio optimization library supporting many risk measures, risk parity, factor models, constraints, and allocation reports. | Portfolio construction; risk; quantitative research | [Docs](https://riskfolio-lib.readthedocs.io/en/latest/) · Py: [official](https://github.com/dcajasn/Riskfolio-Lib) · Go/PHP: — | Open source; optional commercial solvers and consulting are separate. |
 | **[skfolio](https://skfolio.org/)** | Scikit-learn-compatible framework for portfolio optimization, model selection, cross-validation, stress testing, and risk measurement. | Portfolio construction; risk; ML research | [Docs](https://skfolio.org/user_guide/index.html) · Py: [official](https://github.com/skfolio/skfolio) · Go/PHP: — | Open source; enterprise support is separately available. |
+| **[trading-risk-math](https://yuratrading.com/tools/risk-of-ruin-calculator)** | Open-source TypeScript library for risk of ruin (seeded simulation and an exact, simulation-free method) and Monte Carlo resampling of a trade list, with free browser calculators built on it. | Any market; trade-level risk maths; Forex / FX; Research / automation | No public API identified · Py/Go/PHP: — · TS: [official](https://github.com/dakshalraijada/trading-risk-math) | Open source. |
 <!-- END GENERATED:table:portfolio-risk -->
 
 ---
