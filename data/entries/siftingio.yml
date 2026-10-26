@@ -1,0 +1,10 @@
+name: SiftingIO
+url: https://sifting.io/product/stocks
+category: market-data
+description: U.S. stock API with real-time WebSocket prices, REST snapshots, historical OHLCV, SEC filings and XBRL financials, plus official Python, Go and TypeScript clients.
+scope: U.S. stocks, ETFs and ADRs; Traditional markets; Research / automation
+api: '[API docs](https://sifting.io/docs) · Py: [official](https://github.com/SiftingIO/sdk-python) · Go: [official](https://github.com/SiftingIO/sdk-go) · PHP: — · TS: [official](https://github.com/SiftingIO/sdk-typescript) · [MCP](https://github.com/SiftingIO/siftingio-mcp)'
+pricing: Free API-key tier with usage limits; paid plans available; see [official pricing](https://sifting.io/pricing).
+affiliation: vendor
+added: 2026-10-26
+last_verified: 2026-10-26
