@@ -1,0 +1,10 @@
+name: Fair Value Calculator
+url: https://www.fairvalue-calculator.com/
+category: charting-research
+description: Web-based stock valuation tool that estimates a fair value for 40,000+ listed companies worldwide from 26 valuation models, with a quality score, screener, watchlist and an MCP server.
+scope: Global equities (40,000+ stocks); Traditional markets; Research / automation
+api: 'No public API identified · Py/Go/PHP: — · [MCP](https://www.fairvalue-calculator.com/mcp)'
+pricing: Free tier without sign-up; Pro is **$9.90/month** or **$99/year**, first month $1; see [official pricing](https://www.fairvalue-calculator.com/pro/).
+affiliation: vendor
+added: 2026-10-28
+last_verified: 2026-10-28
