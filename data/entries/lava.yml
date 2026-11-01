@@ -1,0 +1,11 @@
+name: Lava
+url: https://lava.ai-dolphin.com/subscribe
+category: signals
+description: Read-only REST API and remote MCP server that turns China A-share news flow into structured heat signals per stock and concept sector, with topic tags, summaries, and timestamps for quant and AI-agent workflows.
+scope: China A-shares / concept sectors / news-flow heat; Traditional markets; Research / automation
+api: '[API docs](https://lava.ai-dolphin.com/subscribe/docs) · Py/Go/PHP: — · [MCP](https://lava.ai-dolphin.com/subscribe/v1/mcp)'
+pricing: Free starter credit of **CNY 100**; usage-based after that at about **CNY 5 per 1,000 requests**; see [official pricing](https://lava.ai-dolphin.com/subscribe).
+repo: https://github.com/dustinliang666-blip/lava-mcp
+affiliation: vendor
+added: 2026-10-28
+last_verified: 2026-10-28
