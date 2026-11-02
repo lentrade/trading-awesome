@@ -9,7 +9,7 @@
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?style=flat-square&logo=github)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-lightgrey?style=flat-square)](LICENSE)
 
-> A curated directory of **<!-- BEGIN GENERATED:count -->196<!-- END GENERATED:count --> trading services and open-source tools** for algorithmic traders, quantitative researchers, developers, and active investors. It covers broker and exchange APIs, stock and forex data, cryptocurrency market data, on-chain analytics, signal intelligence, backtesting, portfolio analytics, AI research, feature engineering, infrastructure, financial visualization, **options and derivatives analytics**, **alternative data**, and **Web3 / DeFi infrastructure**.
+> A curated directory of **<!-- BEGIN GENERATED:count -->197<!-- END GENERATED:count --> trading services and open-source tools** for algorithmic traders, quantitative researchers, developers, and active investors. It covers broker and exchange APIs, stock and forex data, cryptocurrency market data, on-chain analytics, signal intelligence, backtesting, portfolio analytics, AI research, feature engineering, infrastructure, financial visualization, **options and derivatives analytics**, **alternative data**, and **Web3 / DeFi infrastructure**.
 
 Reliable trading infrastructure is a prerequisite for serious research and automation. This list makes it easier to compare **market-data APIs**, **brokerage APIs**, **crypto exchange APIs**, **forex platforms**, and **on-chain analytics tools** without treating fundamentally different products as interchangeable. It is intended as a practical discovery resource—not as an endorsement or a trading recommendation.
 
@@ -61,6 +61,7 @@ In addition to the main directory, this repository includes focused guides for s
 | Added | Service | Section |
 | --- | --- | --- |
 | 2026-10-28 | [Lava](https://lava.ai-dolphin.com/subscribe) | [6. Signal providers & event intelligence](#6-signal-providers--event-intelligence) |
+| 2026-10-28 | [Fair Value Calculator](https://www.fairvalue-calculator.com/) | [5. Charting, research & no-code decision support](#5-charting-research--no-code-decision-support) |
 | 2026-10-26 | [SiftingIO](https://sifting.io/product/stocks) | [2. Traditional markets, macro & multi-asset data](#2-traditional-markets-macro--multi-asset-data) |
 | 2026-10-25 | [trading-risk-math](https://yuratrading.com/tools/risk-of-ruin-calculator) | [9. Portfolio analytics & risk](#9-portfolio-analytics--risk) |
 | 2026-10-19 | [Equibles](https://equibles.com/) | [2. Traditional markets, macro & multi-asset data](#2-traditional-markets-macro--multi-asset-data) |
@@ -69,7 +70,6 @@ In addition to the main directory, this repository includes focused guides for s
 | 2026-10-06 | [TV-Hub](https://www.tv-hub.org/) | [1. Brokerage, execution & algorithmic trading](#1-brokerage-execution--algorithmic-trading) |
 | 2026-09-28 | [aikstockdata](https://aikstockdata.com/en) | [2. Traditional markets, macro & multi-asset data](#2-traditional-markets-macro--multi-asset-data) |
 | 2026-09-25 | [Eulerpool](https://eulerpool.com/) | [2. Traditional markets, macro & multi-asset data](#2-traditional-markets-macro--multi-asset-data) |
-| 2026-09-19 | [SnapPChart](https://www.snappchart.app/) | [5. Charting, research & no-code decision support](#5-charting-research--no-code-decision-support) |
 <!-- END GENERATED:recent -->
 
 Want to add a service? Use the [submission form](https://github.com/lentrade/trading-awesome/issues/new?template=new-entry.yml); see [CONTRIBUTING.md](CONTRIBUTING.md) for the rules.
@@ -219,6 +219,7 @@ These services are valuable to discretionary and hybrid workflows even when they
 | Service | What it does | Markets / scope | API & packages | Public pricing / tariff |
 | --- | --- | --- | --- | --- |
 | **[CoinQuant](https://www.coinquant.ai/)** | No-code, AI-assisted strategy builder and backtesting platform for market research and systematic experimentation. | Crypto; traditional markets; Research / automation | [Public API skills pack](https://www.coinquant.ai/documentation/public-api-skills-pack) · Py: — · Go: — · PHP: — | Free credits; public paid plans listed from **$12.99/week**. |
+| **[Fair Value Calculator](https://www.fairvalue-calculator.com/)** | Web-based stock valuation tool that estimates a fair value for 40,000+ listed companies worldwide from 26 valuation models, with a quality score, screener, watchlist and an MCP server. | Global equities (40,000+ stocks); Traditional markets; Research / automation | No public API identified · Py/Go/PHP: — · [MCP](https://www.fairvalue-calculator.com/mcp) | Free tier without sign-up; Pro is **$9.90/month** or **$99/year**, first month $1; see [official pricing](https://www.fairvalue-calculator.com/pro/). |
 | **[Finviz](https://finviz.com/)** | Popular U.S. equity screener and market-visualization portal with maps, groups, insider and institutional views, and exportable filters. | Traditional markets; Research | No general public API identified · Py/Go/PHP: — | Free tier; Elite subscription unlocks real-time data, backtests, and exports. |
 | **[Investing.com](https://www.investing.com/)** | Global markets portal with quotes, economic calendar, earnings calendar, news, and technical summaries across all major asset classes. | Traditional markets; Forex / FX; crypto; macro | No official public API for personal use · Py/Go/PHP: — | Free web access with ads; premium plan removes ads and adds features. |
 | **[Koyfin](https://www.koyfin.com/)** | Financial research workspace for market dashboards, portfolio analysis, company fundamentals, and reporting. | Traditional markets; fundamentals; Research | No public API identified · Py: — · Go: — · PHP: — | Free, Plus **$39/month**, Premium **$79/month**, with higher advisor tiers. |
