@@ -1,0 +1,10 @@
+name: CoinXview
+url: https://coinxview.com
+category: crypto-intelligence
+description: 'Crypto market data from 22 exchanges with a free keyless REST API: volume-weighted prices, OHLC candles, Fear & Greed index and a per-coin risk score (liquidity, listings, cross-exchange spread, volatility, history).'
+scope: Crypto spot; derivatives (funding, open interest); market data; Crypto — spot / on-chain / DeFi; Crypto — derivatives
+api: '[API docs](https://coinxview.com/free-crypto-api) · Py/Go/PHP: —'
+pricing: Free, no API key, 60 requests/min per IP; see [official pricing](https://coinxview.com/free-crypto-api).
+affiliation: vendor
+added: 2026-11-03
+last_verified: 2026-11-03
