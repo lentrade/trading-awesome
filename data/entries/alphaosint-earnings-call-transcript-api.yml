@@ -1,0 +1,11 @@
+name: AlphaOSINT Earnings Call Transcript API
+url: https://alphaosint.com/sources/earnings-call-transcript-api-sec-8-k-filings-parser-monitor/
+category: market-data
+description: Returns speaker-tagged earnings call transcripts with Q&A pairs and SEC 8-K filings parsed from EDGAR (item codes, guidance, sentiment) as JSON, via a REST API on Apify or a remote MCP tool.
+scope: U.S. equities; earnings calls and SEC 8-K filings; Traditional markets; Research / automation
+api: '[API docs](https://apify.com/johnvc/earnings-call-transcript-api/api) · Py: [official](https://github.com/apify/apify-client-python) · Go: — · PHP: —'
+pricing: 'Pay per result: $0.000116 per record on Apify''s free plan, lower on paid tiers. No start fee, and error rows are not charged; see [official pricing](https://apify.com/johnvc/earnings-call-transcript-api/pricing).'
+repo: https://github.com/johnisanerd/Apify-Earnings-Call-Transcript-API
+affiliation: vendor
+added: 2026-11-04
+last_verified: 2026-11-04
