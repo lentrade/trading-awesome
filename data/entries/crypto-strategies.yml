@@ -1,0 +1,11 @@
+name: Crypto-Strategies
+url: https://github.com/CacheCarti/Crypto-Strategies
+category: education
+description: Collection of Python crypto trading strategies with JSON report cards showing out-of-sample results, validation stages, and rejection reasons.
+scope: Crypto spot markets (BTC, ETH, SOL and others); 5-minute Binance candles; Crypto — spot / on-chain / DeFi; Research / automation
+api: 'No public API identified · Py: [community](https://github.com/CacheCarti/Crypto-Strategies) · Go: — · PHP: —'
+pricing: Open source under the MIT license; see [license](https://github.com/CacheCarti/Crypto-Strategies/blob/main/LICENSE).
+repo: https://github.com/CacheCarti/Crypto-Strategies
+affiliation: vendor
+added: 2026-11-06
+last_verified: 2026-11-06
