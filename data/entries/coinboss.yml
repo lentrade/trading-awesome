@@ -1,0 +1,10 @@
+name: CoinBoss
+url: https://www.coinboss.com/
+category: crypto-intelligence
+description: Crypto market-data platform and public REST API for liquidations, open interest, funding rates, long-short ratios, ETF flows, stablecoins, and exchange balances.
+scope: Crypto — spot / on-chain / DeFi; Crypto — derivatives; ETF flows; stablecoins; Research / automation
+api: '[API docs](https://www.coinboss.com/api-docs) · Py/Go/PHP: —'
+pricing: All API endpoints are currently free and publicly accessible; paid tiers are planned but not yet available; see [official pricing](https://www.coinboss.com/pricing).
+affiliation: vendor
+added: 2026-11-06
+last_verified: 2026-11-06

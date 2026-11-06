@@ -1,0 +1,11 @@
+name: Nyria
+url: https://nyria.io/
+category: brokerage
+description: Alert execution layer that routes TradingView, Discord, Telegram, and webhook signals to connected broker accounts or a simulated broker, with a REST API and MCP server.
+scope: U.S. stocks / options; crypto spot; Traditional markets; Crypto — spot / on-chain / DeFi; Brokerage / execution; Research / automation
+api: '[API docs](https://docs.nyria.io/rest-api) · Py: [official](https://github.com/Nyria-LLC/nyria-alerts) · Go: — · PHP: — · [MCP](https://github.com/Nyria-LLC/nyria-mcp)'
+pricing: Paper trading is free; live trading from **$15/month** for up to **$2,500** total entry allocation, with higher tiers; see [official pricing](https://nyria.io/pricing).
+repo: https://github.com/Nyria-LLC/nyria-mcp
+affiliation: vendor
+added: 2026-11-06
+last_verified: 2026-11-06
