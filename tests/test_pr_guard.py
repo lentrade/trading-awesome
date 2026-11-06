@@ -3,13 +3,15 @@ import io
 import json
 import sys
 import unittest
+from functools import partial
 from pathlib import Path
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import pr_guard  # noqa: E402
-from test_trust import FakeGitHub  # noqa: E402
+from test_trust import NOW, FakeGitHub  # noqa: E402
 
 ENTRY = "name: Acme\nurl: {url}\ncategory: market-data\n"
 
@@ -37,7 +39,9 @@ def pr_event(author="contributor", body=""):
 
 def run_guard(gh, event):
     buffer = io.StringIO()
-    with contextlib.redirect_stdout(buffer):
+    # Match FakeGitHub's fixed clock so account ages do not drift over time.
+    fixed_assess = partial(pr_guard.assess, now=NOW)
+    with contextlib.redirect_stdout(buffer), patch("pr_guard.assess", fixed_assess):
         pr_guard.run(event, gh, dry_run=True)
     return json.loads(buffer.getvalue())
 
