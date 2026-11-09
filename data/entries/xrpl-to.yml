@@ -1,0 +1,10 @@
+name: XRPL.to
+url: https://xrpl.to
+category: crypto-intelligence
+description: 'XRP Ledger token explorer: prices, holders, DEX and AMM trades, NFTs and accounts, with a free REST and WebSocket API.'
+scope: XRP Ledger tokens, the native DEX and AMM pools, NFTs and accounts; Crypto — spot / on-chain / DeFi
+api: '[API docs](https://xrpl.to/docs) · Py/Go/PHP: —'
+pricing: Free tier with 1M credits a month at 10 requests/sec, and most endpoints work without a key. Paid plans start at $49 for 30 days; see [official pricing](https://xrpl.to/docs/subscriptions).
+affiliation: vendor
+added: 2026-11-09
+last_verified: 2026-11-09
