@@ -9,7 +9,7 @@
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?style=flat-square&logo=github)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-lightgrey?style=flat-square)](LICENSE)
 
-> A curated directory of **<!-- BEGIN GENERATED:count -->203<!-- END GENERATED:count --> trading services and open-source tools** for algorithmic traders, quantitative researchers, developers, and active investors. It covers broker and exchange APIs, stock and forex data, cryptocurrency market data, on-chain analytics, signal intelligence, backtesting, portfolio analytics, AI research, feature engineering, infrastructure, financial visualization, **options and derivatives analytics**, **alternative data**, and **Web3 / DeFi infrastructure**.
+> A curated directory of **<!-- BEGIN GENERATED:count -->204<!-- END GENERATED:count --> trading services and open-source tools** for algorithmic traders, quantitative researchers, developers, and active investors. It covers broker and exchange APIs, stock and forex data, cryptocurrency market data, on-chain analytics, signal intelligence, backtesting, portfolio analytics, AI research, feature engineering, infrastructure, financial visualization, **options and derivatives analytics**, **alternative data**, and **Web3 / DeFi infrastructure**.
 
 Reliable trading infrastructure is a prerequisite for serious research and automation. This list makes it easier to compare **market-data APIs**, **brokerage APIs**, **crypto exchange APIs**, **forex platforms**, and **on-chain analytics tools** without treating fundamentally different products as interchangeable. It is intended as a practical discovery resource—not as an endorsement or a trading recommendation.
 
@@ -60,6 +60,7 @@ In addition to the main directory, this repository includes focused guides for s
 <!-- BEGIN GENERATED:recent -->
 | Added | Service | Section |
 | --- | --- | --- |
+| 2026-11-11 | [Monero Merchant Index (XMRList)](https://xmrlist.com/) | [14. Alternative data & external intelligence](#14-alternative-data--external-intelligence) |
 | 2026-11-09 | [XRPL.to](https://xrpl.to) | [4. Crypto market intelligence & on-chain analytics](#4-crypto-market-intelligence--on-chain-analytics) |
 | 2026-11-06 | [Nyria](https://nyria.io/) | [1. Brokerage, execution & algorithmic trading](#1-brokerage-execution--algorithmic-trading) |
 | 2026-11-06 | [Crypto-Strategies](https://github.com/CacheCarti/Crypto-Strategies) | [16. Education, competitions & quant communities](#16-education-competitions--quant-communities) |
@@ -69,7 +70,6 @@ In addition to the main directory, this repository includes focused guides for s
 | 2026-10-28 | [Lava](https://lava.ai-dolphin.com/subscribe) | [6. Signal providers & event intelligence](#6-signal-providers--event-intelligence) |
 | 2026-10-28 | [Fair Value Calculator](https://www.fairvalue-calculator.com/) | [5. Charting, research & no-code decision support](#5-charting-research--no-code-decision-support) |
 | 2026-10-26 | [SiftingIO](https://sifting.io/product/stocks) | [2. Traditional markets, macro & multi-asset data](#2-traditional-markets-macro--multi-asset-data) |
-| 2026-10-25 | [trading-risk-math](https://yuratrading.com/tools/risk-of-ruin-calculator) | [9. Portfolio analytics & risk](#9-portfolio-analytics--risk) |
 <!-- END GENERATED:recent -->
 
 Want to add a service? Use the [submission form](https://github.com/lentrade/trading-awesome/issues/new?template=new-entry.yml); see [CONTRIBUTING.md](CONTRIBUTING.md) for the rules.
@@ -425,6 +425,7 @@ Alternative data sources can provide signals that are orthogonal to price and vo
 | **[Bloomberg Second Measure](https://secondmeasure.com/)** | Transaction-data analytics and consumer-spending intelligence derived from aggregated purchase panels. | Alternative data; consumer; equities | [Platform](https://secondmeasure.com/) · Py/Go/PHP: — | Enterprise-focused; pricing is on request. |
 | **[Eagle Alpha](https://eaglealpha.com/)** | Alternative-data research and analytics platform connecting buy-side firms with niche dataset providers. | Alternative data; multi-asset; research | [Platform](https://eaglealpha.com/) · Py/Go/PHP: — | Enterprise-focused; pricing is on request. |
 | **[Kpler](https://www.kpler.com/)** | Commodity-tracking and vessel-analytics platform using satellite AIS, port data, and trade flows for energy and shipping markets. | Commodities; energy; shipping; Alternative data | [Platform](https://www.kpler.com/) · Py/Go/PHP: — | Enterprise-focused; pricing is on request. |
+| **[Monero Merchant Index (XMRList)](https://xmrlist.com/)** | Daily open dataset and free JSON API of about 1,800 businesses that accept Monero (XMR), with category, country, KYC policy, Tor address and uptime per entry. | Crypto merchant adoption data (Monero); Crypto — spot / on-chain / DeFi | [API docs](https://xmrlist.com/api) · Py/Go/PHP: — | Free. API without key (120 requests per minute per IP); dataset under CC BY 4.0; see [official pricing](https://xmrlist.com/api). |
 | **[Orbital Insight](https://orbitalinsight.com/)** | Geospatial analytics and satellite-imagery intelligence for supply-chain monitoring, retail traffic, and macro indicators. | Alternative data; macro; equities; commodities | [Platform](https://orbitalinsight.com/) · Py/Go/PHP: — | Enterprise-focused; pricing is on request. |
 | **[SimilarWeb](https://www.similarweb.com/)** | Web-traffic, app-usage, and digital-intelligence platform for estimating consumer engagement and competitive positioning. | Alternative data; equities; consumer | [API docs](https://developer.similarweb.com/) · Py: [community](https://github.com/similarweb) · Go/PHP: — | Free limited tier; paid plans and API access are custom-priced. |
 | **[Snowflake Marketplace](https://www.snowflake.com/en/data-cloud/marketplace/)** | Data marketplace for querying live financial, alternative, and proprietary datasets without ETL. | Alternative data; multi-asset; Research / automation | [Docs](https://other-docs.snowflake.com/en/collaboration/collaboration-marketplace-about) · Py/Go/PHP: Snowflake connectors | Provider-dependent pricing; Snowflake compute costs are metered separately. |
