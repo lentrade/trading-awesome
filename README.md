@@ -9,7 +9,7 @@
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?style=flat-square&logo=github)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-lightgrey?style=flat-square)](LICENSE)
 
-> A curated directory of **<!-- BEGIN GENERATED:count -->202<!-- END GENERATED:count --> trading services and open-source tools** for algorithmic traders, quantitative researchers, developers, and active investors. It covers broker and exchange APIs, stock and forex data, cryptocurrency market data, on-chain analytics, signal intelligence, backtesting, portfolio analytics, AI research, feature engineering, infrastructure, financial visualization, **options and derivatives analytics**, **alternative data**, and **Web3 / DeFi infrastructure**.
+> A curated directory of **<!-- BEGIN GENERATED:count -->203<!-- END GENERATED:count --> trading services and open-source tools** for algorithmic traders, quantitative researchers, developers, and active investors. It covers broker and exchange APIs, stock and forex data, cryptocurrency market data, on-chain analytics, signal intelligence, backtesting, portfolio analytics, AI research, feature engineering, infrastructure, financial visualization, **options and derivatives analytics**, **alternative data**, and **Web3 / DeFi infrastructure**.
 
 Reliable trading infrastructure is a prerequisite for serious research and automation. This list makes it easier to compare **market-data APIs**, **brokerage APIs**, **crypto exchange APIs**, **forex platforms**, and **on-chain analytics tools** without treating fundamentally different products as interchangeable. It is intended as a practical discovery resource—not as an endorsement or a trading recommendation.
 
@@ -60,6 +60,7 @@ In addition to the main directory, this repository includes focused guides for s
 <!-- BEGIN GENERATED:recent -->
 | Added | Service | Section |
 | --- | --- | --- |
+| 2026-11-09 | [XRPL.to](https://xrpl.to) | [4. Crypto market intelligence & on-chain analytics](#4-crypto-market-intelligence--on-chain-analytics) |
 | 2026-11-06 | [Nyria](https://nyria.io/) | [1. Brokerage, execution & algorithmic trading](#1-brokerage-execution--algorithmic-trading) |
 | 2026-11-06 | [Crypto-Strategies](https://github.com/CacheCarti/Crypto-Strategies) | [16. Education, competitions & quant communities](#16-education-competitions--quant-communities) |
 | 2026-11-06 | [CoinBoss](https://www.coinboss.com/) | [4. Crypto market intelligence & on-chain analytics](#4-crypto-market-intelligence--on-chain-analytics) |
@@ -69,7 +70,6 @@ In addition to the main directory, this repository includes focused guides for s
 | 2026-10-28 | [Fair Value Calculator](https://www.fairvalue-calculator.com/) | [5. Charting, research & no-code decision support](#5-charting-research--no-code-decision-support) |
 | 2026-10-26 | [SiftingIO](https://sifting.io/product/stocks) | [2. Traditional markets, macro & multi-asset data](#2-traditional-markets-macro--multi-asset-data) |
 | 2026-10-25 | [trading-risk-math](https://yuratrading.com/tools/risk-of-ruin-calculator) | [9. Portfolio analytics & risk](#9-portfolio-analytics--risk) |
-| 2026-10-19 | [Equibles](https://equibles.com/) | [2. Traditional markets, macro & multi-asset data](#2-traditional-markets-macro--multi-asset-data) |
 <!-- END GENERATED:recent -->
 
 Want to add a service? Use the [submission form](https://github.com/lentrade/trading-awesome/issues/new?template=new-entry.yml); see [CONTRIBUTING.md](CONTRIBUTING.md) for the rules.
@@ -211,6 +211,7 @@ On-chain analytics and crypto intelligence tools help traders evaluate network a
 | **[Northstar](https://crypto.daan.gg/)** | Volume-weighted cross-exchange crypto pair averages from live exchanges, distinct from catalog-style aggregators. | Crypto — spot; market data | [API docs](https://crypto.daan.gg/developers/docs) · Py: — · Go: — · PHP: — | Sandbox free (10k credits/mo, 120 req/min, 7-day history); Growth **€49/month** excl. VAT; Scale **€199/month**. |
 | **[Santiment](https://santiment.net/)** | Behavioral crypto-intelligence platform combining social, on-chain, development, NFT, and market metrics. | Crypto — on-chain / DeFi / NFTs; social intelligence | [SANAPI docs](https://academy.santiment.net/sanapi/) · Py: [official](https://github.com/santiment/sanpy) · Go: — · PHP: — | Free plan; paid Sanbase and business tiers are published by product. |
 | **[Whale Alert](https://whale-alert.io/)** | Real-time large-transaction monitoring and blockchain analytics via alert streams and enterprise REST data. | Crypto — on-chain; stablecoins; alerts | [API docs](https://developer.whale-alert.io/api-account/documentation) · Py: code examples only · Go: code examples only · PHP: — | Alerts API: **$29.95/month**; Enterprise API: **$699/month**. |
+| **[XRPL.to](https://xrpl.to)** | XRP Ledger token explorer: prices, holders, DEX and AMM trades, NFTs and accounts, with a free REST and WebSocket API. | XRP Ledger tokens, the native DEX and AMM pools, NFTs and accounts; Crypto — spot / on-chain / DeFi | [API docs](https://xrpl.to/docs) · Py/Go/PHP: — | Free tier with 1M credits a month at 10 requests/sec, and most endpoints work without a key. Paid plans start at $49 for 30 days; see [official pricing](https://xrpl.to/docs/subscriptions). |
 <!-- END GENERATED:table:crypto-intelligence -->
 
 ---
