@@ -1,0 +1,11 @@
+name: Monero Merchant Index (XMRList)
+url: https://xmrlist.com/
+category: alternative-data
+description: Daily open dataset and free JSON API of about 1,800 businesses that accept Monero (XMR), with category, country, KYC policy, Tor address and uptime per entry.
+scope: Crypto merchant adoption data (Monero); Crypto — spot / on-chain / DeFi
+api: '[API docs](https://xmrlist.com/api) · Py/Go/PHP: —'
+pricing: Free. API without key (120 requests per minute per IP); dataset under CC BY 4.0; see [official pricing](https://xmrlist.com/api).
+repo: https://github.com/benwalton34533-cpu/monero-merchant-index
+affiliation: other
+added: 2026-11-11
+last_verified: 2026-11-11
