@@ -9,7 +9,7 @@
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?style=flat-square&logo=github)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-lightgrey?style=flat-square)](LICENSE)
 
-> A curated directory of **<!-- BEGIN GENERATED:count -->204<!-- END GENERATED:count --> trading services and open-source tools** for algorithmic traders, quantitative researchers, developers, and active investors. It covers broker and exchange APIs, stock and forex data, cryptocurrency market data, on-chain analytics, signal intelligence, backtesting, portfolio analytics, AI research, feature engineering, infrastructure, financial visualization, **options and derivatives analytics**, **alternative data**, and **Web3 / DeFi infrastructure**.
+> A curated directory of **<!-- BEGIN GENERATED:count -->205<!-- END GENERATED:count --> trading services and open-source tools** for algorithmic traders, quantitative researchers, developers, and active investors. It covers broker and exchange APIs, stock and forex data, cryptocurrency market data, on-chain analytics, signal intelligence, backtesting, portfolio analytics, AI research, feature engineering, infrastructure, financial visualization, **options and derivatives analytics**, **alternative data**, and **Web3 / DeFi infrastructure**.
 
 Reliable trading infrastructure is a prerequisite for serious research and automation. This list makes it easier to compare **market-data APIs**, **brokerage APIs**, **crypto exchange APIs**, **forex platforms**, and **on-chain analytics tools** without treating fundamentally different products as interchangeable. It is intended as a practical discovery resource—not as an endorsement or a trading recommendation.
 
@@ -61,6 +61,7 @@ In addition to the main directory, this repository includes focused guides for s
 | Added | Service | Section |
 | --- | --- | --- |
 | 2026-11-11 | [Monero Merchant Index (XMRList)](https://xmrlist.com/) | [14. Alternative data & external intelligence](#14-alternative-data--external-intelligence) |
+| 2026-11-11 | [AlphaYou](https://alphayou.net) | [14. Alternative data & external intelligence](#14-alternative-data--external-intelligence) |
 | 2026-11-09 | [XRPL.to](https://xrpl.to) | [4. Crypto market intelligence & on-chain analytics](#4-crypto-market-intelligence--on-chain-analytics) |
 | 2026-11-06 | [Nyria](https://nyria.io/) | [1. Brokerage, execution & algorithmic trading](#1-brokerage-execution--algorithmic-trading) |
 | 2026-11-06 | [Crypto-Strategies](https://github.com/CacheCarti/Crypto-Strategies) | [16. Education, competitions & quant communities](#16-education-competitions--quant-communities) |
@@ -69,7 +70,6 @@ In addition to the main directory, this repository includes focused guides for s
 | 2026-11-03 | [CoinXview](https://coinxview.com) | [4. Crypto market intelligence & on-chain analytics](#4-crypto-market-intelligence--on-chain-analytics) |
 | 2026-10-28 | [Lava](https://lava.ai-dolphin.com/subscribe) | [6. Signal providers & event intelligence](#6-signal-providers--event-intelligence) |
 | 2026-10-28 | [Fair Value Calculator](https://www.fairvalue-calculator.com/) | [5. Charting, research & no-code decision support](#5-charting-research--no-code-decision-support) |
-| 2026-10-26 | [SiftingIO](https://sifting.io/product/stocks) | [2. Traditional markets, macro & multi-asset data](#2-traditional-markets-macro--multi-asset-data) |
 <!-- END GENERATED:recent -->
 
 Want to add a service? Use the [submission form](https://github.com/lentrade/trading-awesome/issues/new?template=new-entry.yml); see [CONTRIBUTING.md](CONTRIBUTING.md) for the rules.
@@ -420,6 +420,7 @@ Alternative data sources can provide signals that are orthogonal to price and vo
 <!-- BEGIN GENERATED:table:alternative-data -->
 | Service | What it does | Markets / scope | API & packages | Public pricing / tariff |
 | --- | --- | --- | --- | --- |
+| **[AlphaYou](https://alphayou.net)** | Research app and API covering SEC Form 4 insider trades, 13F fund holdings and company filings, plus public Hyperliquid trader positions and wallet histories, each item linked to its source. | U.S. equities / Hyperliquid perps; Crypto — derivatives; Traditional markets; Research / automation | [API docs](https://alphayou.net/developers) · Py/Go/PHP: — · [MCP](https://github.com/vanshb95/alphayou-claude-plugin) | Free tier; paid plans start at **$29/month**; see [official pricing](https://alphayou.net/pricing). |
 | **[App Annie (data.ai)](https://www.data.ai/)** | Mobile-app market intelligence for downloads, revenue, engagement, and competitive benchmarking. | Alternative data; consumer; equities; tech | [Platform](https://www.data.ai/) · Py/Go/PHP: — | Subscription-based; public plan tiers are listed on the site. |
 | **[AWS Data Exchange](https://aws.amazon.com/data-exchange/)** | Marketplace for subscribing to third-party financial, alternative, and reference datasets directly into AWS infrastructure. | Alternative data; multi-asset; Research / automation | [Docs](https://docs.aws.amazon.com/data-exchange/) · Py/Go/PHP: AWS SDKs | Subscription pricing is set by individual data providers; AWS infrastructure costs are separate. |
 | **[Bloomberg Second Measure](https://secondmeasure.com/)** | Transaction-data analytics and consumer-spending intelligence derived from aggregated purchase panels. | Alternative data; consumer; equities | [Platform](https://secondmeasure.com/) · Py/Go/PHP: — | Enterprise-focused; pricing is on request. |
