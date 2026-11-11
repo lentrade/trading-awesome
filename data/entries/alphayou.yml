@@ -1,0 +1,10 @@
+name: AlphaYou
+url: https://alphayou.net
+category: alternative-data
+description: Research app and API covering SEC Form 4 insider trades, 13F fund holdings and company filings, plus public Hyperliquid trader positions and wallet histories, each item linked to its source.
+scope: U.S. equities / Hyperliquid perps; Crypto — derivatives; Traditional markets; Research / automation
+api: '[API docs](https://alphayou.net/developers) · Py/Go/PHP: — · [MCP](https://github.com/vanshb95/alphayou-claude-plugin)'
+pricing: Free tier; paid plans start at **$29/month**; see [official pricing](https://alphayou.net/pricing).
+affiliation: vendor
+added: 2026-11-11
+last_verified: 2026-11-11
