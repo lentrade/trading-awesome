@@ -1,0 +1,10 @@
+name: Coinpred
+url: https://coinpred.com/
+category: charting-research
+description: AI technical-analysis workspace for short-term BTC and ETH, returning a directional view with probabilities, confidence, and supporting market evidence.
+scope: BTC and ETH short-term analysis; Crypto — derivatives; Research / automation
+api: 'No public API identified · Py/Go/PHP: —'
+pricing: Free daily credits; paid plans are $20 per 37 days or $188 per 455 days, paid in USDT on Arbitrum One; see [official pricing](https://coinpred.com/).
+affiliation: vendor
+added: 2026-11-22
+last_verified: 2026-11-22
