@@ -9,7 +9,7 @@
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?style=flat-square&logo=github)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-lightgrey?style=flat-square)](LICENSE)
 
-> A curated directory of **<!-- BEGIN GENERATED:count -->205<!-- END GENERATED:count --> trading services and open-source tools** for algorithmic traders, quantitative researchers, developers, and active investors. It covers broker and exchange APIs, stock and forex data, cryptocurrency market data, on-chain analytics, signal intelligence, backtesting, portfolio analytics, AI research, feature engineering, infrastructure, financial visualization, **options and derivatives analytics**, **alternative data**, and **Web3 / DeFi infrastructure**.
+> A curated directory of **<!-- BEGIN GENERATED:count -->206<!-- END GENERATED:count --> trading services and open-source tools** for algorithmic traders, quantitative researchers, developers, and active investors. It covers broker and exchange APIs, stock and forex data, cryptocurrency market data, on-chain analytics, signal intelligence, backtesting, portfolio analytics, AI research, feature engineering, infrastructure, financial visualization, **options and derivatives analytics**, **alternative data**, and **Web3 / DeFi infrastructure**.
 
 Reliable trading infrastructure is a prerequisite for serious research and automation. This list makes it easier to compare **market-data APIs**, **brokerage APIs**, **crypto exchange APIs**, **forex platforms**, and **on-chain analytics tools** without treating fundamentally different products as interchangeable. It is intended as a practical discovery resource—not as an endorsement or a trading recommendation.
 
@@ -60,6 +60,7 @@ In addition to the main directory, this repository includes focused guides for s
 <!-- BEGIN GENERATED:recent -->
 | Added | Service | Section |
 | --- | --- | --- |
+| 2026-11-22 | [Coinpred](https://coinpred.com/) | [5. Charting, research & no-code decision support](#5-charting-research--no-code-decision-support) |
 | 2026-11-11 | [Monero Merchant Index (XMRList)](https://xmrlist.com/) | [14. Alternative data & external intelligence](#14-alternative-data--external-intelligence) |
 | 2026-11-11 | [AlphaYou](https://alphayou.net) | [14. Alternative data & external intelligence](#14-alternative-data--external-intelligence) |
 | 2026-11-09 | [XRPL.to](https://xrpl.to) | [4. Crypto market intelligence & on-chain analytics](#4-crypto-market-intelligence--on-chain-analytics) |
@@ -69,7 +70,6 @@ In addition to the main directory, this repository includes focused guides for s
 | 2026-11-04 | [AlphaOSINT Earnings Call Transcript API](https://alphaosint.com/sources/earnings-call-transcript-api-sec-8-k-filings-parser-monitor/) | [2. Traditional markets, macro & multi-asset data](#2-traditional-markets-macro--multi-asset-data) |
 | 2026-11-03 | [CoinXview](https://coinxview.com) | [4. Crypto market intelligence & on-chain analytics](#4-crypto-market-intelligence--on-chain-analytics) |
 | 2026-10-28 | [Lava](https://lava.ai-dolphin.com/subscribe) | [6. Signal providers & event intelligence](#6-signal-providers--event-intelligence) |
-| 2026-10-28 | [Fair Value Calculator](https://www.fairvalue-calculator.com/) | [5. Charting, research & no-code decision support](#5-charting-research--no-code-decision-support) |
 <!-- END GENERATED:recent -->
 
 Want to add a service? Use the [submission form](https://github.com/lentrade/trading-awesome/issues/new?template=new-entry.yml); see [CONTRIBUTING.md](CONTRIBUTING.md) for the rules.
@@ -223,6 +223,7 @@ These services are valuable to discretionary and hybrid workflows even when they
 <!-- BEGIN GENERATED:table:charting-research -->
 | Service | What it does | Markets / scope | API & packages | Public pricing / tariff |
 | --- | --- | --- | --- | --- |
+| **[Coinpred](https://coinpred.com/)** | AI technical-analysis workspace for short-term BTC and ETH, returning a directional view with probabilities, confidence, and supporting market evidence. | BTC and ETH short-term analysis; Crypto — derivatives; Research / automation | No public API identified · Py/Go/PHP: — | Free daily credits; paid plans are $20 per 37 days or $188 per 455 days, paid in USDT on Arbitrum One; see [official pricing](https://coinpred.com/). |
 | **[CoinQuant](https://www.coinquant.ai/)** | No-code, AI-assisted strategy builder and backtesting platform for market research and systematic experimentation. | Crypto; traditional markets; Research / automation | [Public API skills pack](https://www.coinquant.ai/documentation/public-api-skills-pack) · Py: — · Go: — · PHP: — | Free credits; public paid plans listed from **$12.99/week**. |
 | **[Fair Value Calculator](https://www.fairvalue-calculator.com/)** | Web-based stock valuation tool that estimates a fair value for 40,000+ listed companies worldwide from 26 valuation models, with a quality score, screener, watchlist and an MCP server. | Global equities (40,000+ stocks); Traditional markets; Research / automation | No public API identified · Py/Go/PHP: — · [MCP](https://www.fairvalue-calculator.com/mcp) | Free tier without sign-up; Pro is **$9.90/month** or **$99/year**, first month $1; see [official pricing](https://www.fairvalue-calculator.com/pro/). |
 | **[Finviz](https://finviz.com/)** | Popular U.S. equity screener and market-visualization portal with maps, groups, insider and institutional views, and exportable filters. | Traditional markets; Research | No general public API identified · Py/Go/PHP: — | Free tier; Elite subscription unlocks real-time data, backtests, and exports. |
